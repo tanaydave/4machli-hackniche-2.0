@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 import math,random
-import salesAnalysis,reviewAnalysis , marketBasket
+import salesAnalysis,reviewAnalysis , marketBasket , paymentAnalysis
 app = Flask(__name__)
 CORS(app)
 
@@ -33,6 +33,15 @@ def daily():
 def weekly():
     try:
         data = salesAnalysis.get_weekly_sum()
+        return data     
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+    
+@app.route('/payment', methods=['GET'])
+def payment():
+    try:
+        data = paymentAnalysis.get_payment_analysis()
         return data     
 
     except Exception as e:
