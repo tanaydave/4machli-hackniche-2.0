@@ -1,0 +1,687 @@
+Date,Timestamp,Invoice No.,Item Name
+22-01-2024,22-01-2024 23:57,21006,Aeropress
+22-01-2024,22-01-2024 23:57,21006,Iced Americano (350 ML)
+22-01-2024,22-01-2024 23:57,21006,Add On Syrup (Add On Tiramisu Syrup)
+22-01-2024,22-01-2024 23:57,21006,Baked Vada Pav
+22-01-2024,22-01-2024 23:43,21005,South Indian Filter Kaapi (250 ML)
+22-01-2024,22-01-2024 23:43,21005,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 23:43,21005,Original South Indian Frappe (450 ML)
+22-01-2024,22-01-2024 23:43,21005,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 23:39,21004,Spicy Banana Chips 60 Gm
+22-01-2024,22-01-2024 23:39,21003,Classic Frappe (350 ML)
+22-01-2024,22-01-2024 23:39,21003,Cold Brew
+22-01-2024,22-01-2024 23:39,21003,Berliners (Nutella Berliner)
+22-01-2024,22-01-2024 23:07,21002,Iced Americano (350 ML)
+22-01-2024,22-01-2024 23:07,21002,Cafe Latte (250 ML)
+22-01-2024,22-01-2024 23:02,21001,Cappucino (350 ML)
+22-01-2024,22-01-2024 23:02,21001,Almond Frappe (350 ML)
+22-01-2024,22-01-2024 23:02,21001,Madagascar Hot Chocolate (250 ML)
+22-01-2024,22-01-2024 23:02,21001,Berliners (Dark Choco Mousse Berliner)
+22-01-2024,22-01-2024 22:57,21000,Cafe Latte (250 ML)
+22-01-2024,22-01-2024 22:57,21000,Sea Salt Dark Mocha (250 ML)
+22-01-2024,22-01-2024 22:57,21000,ALMOND MILK (200 ML)
+22-01-2024,22-01-2024 22:46,20999,Whole Wheat Ladi Pav 4 Pc
+22-01-2024,22-01-2024 22:43,20998,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 22:43,20998,South Indian Filter Kaapi (250 ML)
+22-01-2024,22-01-2024 22:41,20997,Madagascar Chocochip Frappe (350 ML)
+22-01-2024,22-01-2024 22:36,20996,Madagascar Chocochip Frappe (350 ML)
+22-01-2024,22-01-2024 22:36,20996,Caramel Frappe (350 ML)
+22-01-2024,22-01-2024 22:24,20995,Chicken Calzone
+22-01-2024,22-01-2024 22:24,20995,Mix Tartlet 3 Pcs (salted Caramel tartlet)
+22-01-2024,22-01-2024 22:24,20995,Mix Tartlet 3 Pcs (chocolate Tartlet)
+22-01-2024,22-01-2024 22:24,20995,Cold Brew
+22-01-2024,22-01-2024 22:24,20995,Sea Salt Dark Mocha (250 ML)
+22-01-2024,22-01-2024 22:24,20995,Bon Bon (350 ML)
+22-01-2024,22-01-2024 22:24,20995,Almond Honey Latte (250 ML)
+22-01-2024,22-01-2024 22:24,20995,Hazelnut Frappe (350 ML)
+22-01-2024,22-01-2024 22:24,20995,Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)
+22-01-2024,22-01-2024 22:24,20995,Mix Tartlet 3 Pcs (kodai cheese tartlet)
+22-01-2024,22-01-2024 22:23,20994,Papparoti (Plain)
+22-01-2024,22-01-2024 22:23,20994,Nariyal Irish Cream Frappe (450 ML)
+22-01-2024,22-01-2024 22:21,20993,Iced Americano (350 ML)
+22-01-2024,22-01-2024 22:21,20993,Add On Syrup (Add On Irish Syrup)
+22-01-2024,22-01-2024 22:21,20993,Kaapicino (250 ML)
+22-01-2024,22-01-2024 21:34,20992,Madagascar Hot Chocolate (250 ML)
+22-01-2024,22-01-2024 21:34,20992,Hazelnut Frappe (350 ML)
+22-01-2024,22-01-2024 20:56,20991,Cappucino (250 ML)
+22-01-2024,22-01-2024 20:56,20991,Choco-crinkle-cookies (COMBO 3 PCS)
+22-01-2024,22-01-2024 20:49,C2315,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+22-01-2024,22-01-2024 20:24,20990,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 20:24,20990,Hyderabadi Soya Keema Pav
+22-01-2024,22-01-2024 20:24,20990,Yellow Banana Chips 60 Gm
+22-01-2024,22-01-2024 20:05,20989,Hazelnut Frappe (350 ML)
+22-01-2024,22-01-2024 20:05,20989,Iced Americano (350 ML)
+22-01-2024,22-01-2024 19:44,20988,Bon Bon (350 ML)
+22-01-2024,22-01-2024 19:44,20988,Vietnamese (350 ML)
+22-01-2024,22-01-2024 19:41,20987,Iced Latte (350 ML)
+22-01-2024,22-01-2024 19:41,20987,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 19:35,20986,Espresso Tonic (Tonic Water)
+22-01-2024,22-01-2024 19:30,20985,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 19:30,20985,Cafe Latte (250 ML)
+22-01-2024,22-01-2024 19:26,20984,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 19:26,20983,Classic Frappe (450 ML)
+22-01-2024,22-01-2024 18:52,20982,Almond Honey Latte (250 ML)
+22-01-2024,22-01-2024 18:52,20982,Berliners (Blueberry Cheese Cake Berliner)
+22-01-2024,22-01-2024 18:48,20981,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 18:48,20981,OAT MILK (200 ML)
+22-01-2024,22-01-2024 18:45,C2314,Baked Pav Bhaji
+22-01-2024,22-01-2024 18:45,C2314,Hyderabadi Chicken Keema Pav
+22-01-2024,22-01-2024 18:45,C2314,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 18:45,C2314,Americano (250 ML)
+22-01-2024,22-01-2024 18:38,20980,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 18:25,20979,Espresso Tonic (Tonic Water)
+22-01-2024,22-01-2024 18:24,20978,Spicy Banana Chips 60 Gm
+22-01-2024,22-01-2024 18:24,20978,Madagascar Chocochip Frappe (450 ML)
+22-01-2024,22-01-2024 18:18,20977,Iced Americano (350 ML)
+22-01-2024,22-01-2024 18:18,20977,Vietnamese (350 ML)
+22-01-2024,22-01-2024 18:18,20977,Baked Pav Bhaji
+22-01-2024,22-01-2024 18:03,20976,Baked Vada Pav
+22-01-2024,22-01-2024 17:54,20975,South Indian Filter Kaapi (250 ML)
+22-01-2024,22-01-2024 16:56,C2313,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+22-01-2024,22-01-2024 16:56,C2313,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+22-01-2024,22-01-2024 16:54,20974,Calzones Veg (Calzone Veg)
+22-01-2024,22-01-2024 16:54,20974,Baked Pav Bhaji
+22-01-2024,22-01-2024 16:54,20974,Hyderabadi Chicken Keema Pav
+22-01-2024,22-01-2024 16:50,20973,Whole Wheat Ladi Pav 4 Pc
+22-01-2024,22-01-2024 16:46,20972,Almond Frappe (350 ML)
+22-01-2024,22-01-2024 16:38,20971,Nariyal Irish Cream Frappe (350 ML)
+22-01-2024,22-01-2024 16:38,20971,Baked Pav Bhaji
+22-01-2024,22-01-2024 16:38,20971,Americano (250 ML)
+22-01-2024,22-01-2024 16:26,20970,Iced Americano (350 ML)
+22-01-2024,22-01-2024 15:45,C2312,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 15:26,20969,Baked Vada Pav
+22-01-2024,22-01-2024 15:11,20968,Original South Indian Frappe (450 ML)
+22-01-2024,22-01-2024 14:55,C2311,Baked Pav Bhaji
+22-01-2024,22-01-2024 14:55,C2311,Baked Vada Pav
+22-01-2024,22-01-2024 14:01,C2310,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 13:50,C2309,Mix Berliner 2 Pcs (Nutella Berliner)
+22-01-2024,22-01-2024 13:50,C2309,Mix Berliner 2 Pcs (Dark Choco Mousse Berliner)
+22-01-2024,22-01-2024 13:49,20967,Hot Chocolate (250 ML)
+22-01-2024,22-01-2024 13:45,20966,Kaapicino (250 ML)
+22-01-2024,22-01-2024 13:45,20966,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 12:12,20965,Cappucino (250 ML)
+22-01-2024,22-01-2024 12:12,20965,Americano (250 ML)
+22-01-2024,22-01-2024 11:38,20964,Iced Americano (450 ML)
+22-01-2024,22-01-2024 11:22,20963,South Indian Filter Kaapi (250 ML)
+22-01-2024,22-01-2024 11:22,20963,South Indian Filter Kaapi (150 ML)
+22-01-2024,22-01-2024 11:12,20962,Iced Americano (450 ML)
+22-01-2024,22-01-2024 11:11,20961,Kaapicino (250 ML)
+22-01-2024,22-01-2024 10:45,20960,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+22-01-2024,22-01-2024 10:45,20960,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+22-01-2024,22-01-2024 10:45,20960,White Loaf Bread
+22-01-2024,22-01-2024 10:45,20960,Choco-crinkle-cookies (COMBO 3 PCS)
+22-01-2024,22-01-2024 10:39,20959,Iced Americano (350 ML)
+22-01-2024,22-01-2024 09:55,20958,Almond Honey Latte (250 ML)
+22-01-2024,22-01-2024 09:55,20958,Flat White 250 Ml
+22-01-2024,22-01-2024 09:55,20958,Papparoti (Add On Nutella sauce)
+22-01-2024,22-01-2024 09:55,20958,Hyderabadi Chicken Keema Pav
+22-01-2024,22-01-2024 08:46,20957,Americano (350 Ml)
+22-01-2024,22-01-2024 08:21,20956,South Indian Filter Kaapi (250 ML)
+22-01-2024,22-01-2024 08:21,20956,Cafe Mocha (250 ML)
+22-01-2024,22-01-2024 08:21,20956,Papparoti (Plain)
+22-01-2024,22-01-2024 07:13,20955,Cappucino (350 ML)
+22-01-2024,22-01-2024 06:59,20954,Cappucino (350 ML)
+22-01-2024,22-01-2024 05:37,20953,Vietnamese (450 ML)
+22-01-2024,22-01-2024 04:37,20952,Choco-crinkle-cookies (COMBO 3 PCS)
+22-01-2024,22-01-2024 03:33,20951,Cafe Latte (250 ML)
+22-01-2024,22-01-2024 03:33,20951,Add On Syrup (Add On hazelnuts Syrup)
+22-01-2024,22-01-2024 03:18,20950,Vietnamese (350 ML)
+22-01-2024,22-01-2024 03:18,20950,Tartlets (Salted Caramel Tartlet)
+22-01-2024,22-01-2024 03:07,20949,Spicy Banana Chips 60 Gm
+22-01-2024,22-01-2024 02:59,20948,Original South Indian Frappe (350 ML)
+22-01-2024,22-01-2024 02:59,20948,ALMOND MILK (200 ML)
+21-01-2024,22-01-2024 02:23,20947,South Indian Filter Kaapi (250 ML)
+21-01-2024,22-01-2024 02:20,20946,Papparoti (Add On Nutella sauce)
+21-01-2024,22-01-2024 02:20,20946,Baked Vada Pav
+21-01-2024,22-01-2024 02:20,20946,Hyderabadi Soya Keema Pav
+21-01-2024,22-01-2024 02:20,20946,Berliner Mix 3 Pcs (Lotus Biscoff Berliner)
+21-01-2024,22-01-2024 02:20,20946,Rosella Cheesecake Berliner
+21-01-2024,22-01-2024 02:20,20946,Tartlets (kodai cheese tartlet)
+21-01-2024,22-01-2024 02:20,20946,Cappucino (350 ML)
+21-01-2024,22-01-2024 02:10,20945,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,22-01-2024 02:10,20945,Iced Americano (350 ML)
+21-01-2024,22-01-2024 02:08,20944,Cappucino (250 ML)
+21-01-2024,22-01-2024 02:08,20944,Hot Chocolate (250 ML)
+21-01-2024,22-01-2024 02:08,20944,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,22-01-2024 01:50,20943,Hot Chocolate (250 Ml)
+21-01-2024,22-01-2024 01:47,20942,Iced Latte (350 Ml)
+21-01-2024,22-01-2024 01:42,20941,Hazelnut Frappe (350 ML)
+21-01-2024,22-01-2024 01:42,20941,Vietnamese (350 ML)
+21-01-2024,22-01-2024 01:27,20940,Berliners (Dark Choco Mousse Berliner)
+21-01-2024,22-01-2024 01:27,20940,Hot Chocolate (250 ML)
+21-01-2024,22-01-2024 01:27,20940,Vietnamese (350 ML)
+21-01-2024,22-01-2024 01:03,20939,Malnad Tonic (choice Of Tonic)
+21-01-2024,22-01-2024 00:46,20938,South Indian Filter Kaapi (150 ML)
+21-01-2024,22-01-2024 00:46,20938,Hot Chocolate (350 ML)
+21-01-2024,22-01-2024 00:46,20938,Baked Vada Pav
+21-01-2024,22-01-2024 00:33,20937,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,22-01-2024 00:33,20937,ALMOND MILK (200 ML)
+21-01-2024,22-01-2024 00:31,20936,Sea Salt Dark Mocha Frappe (350 ML)
+21-01-2024,22-01-2024 00:31,20936,Original South Indian Frappe (350 ML)
+21-01-2024,22-01-2024 00:31,20936,Madagascar Hot Chocolate (250 ML)
+21-01-2024,22-01-2024 00:31,20936,Hyderabadi Chicken Keema Pav
+21-01-2024,22-01-2024 00:31,20936,Rosella Jam With Filter Coffee Ganache Macaroon (3 PCS)
+21-01-2024,22-01-2024 00:31,20936,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+21-01-2024,22-01-2024 00:26,20935,Hazelnut Frappe (350 ML)
+21-01-2024,22-01-2024 00:26,20935,South Indian Filter Kaapi (150 ML)
+21-01-2024,22-01-2024 00:21,20934,Hot Chocolate (250 ML)
+21-01-2024,22-01-2024 00:20,20933,Papparoti (Add On Nutella sauce)
+21-01-2024,22-01-2024 00:20,20933,Hot Chocolate (250 ML)
+21-01-2024,22-01-2024 00:20,20933,Mix Berliner 2 Pcs (Lotus Biscoff Berliner)
+21-01-2024,22-01-2024 00:20,20933,Mix Berliner 2 Pcs (Nutella Berliner)
+21-01-2024,22-01-2024 00:20,20933,Mix Berliner 2 Pcs (Blueberry Cheese Cake Berliner)
+21-01-2024,22-01-2024 00:20,20933,Rosella Cheesecake Berliner
+21-01-2024,22-01-2024 00:14,20932,Original South Indian Frappe (450 ML)
+21-01-2024,22-01-2024 00:14,20932,Sea Salt Dark Mocha Frappe (350 ML)
+21-01-2024,22-01-2024 00:14,20932,Sea Salt Dark Mocha Frappe (450 ML)
+21-01-2024,22-01-2024 00:14,20932,Hyderabadi Soya Keema Pav
+21-01-2024,22-01-2024 00:14,20932,Madagascar Hot Chocolate (350 ML)
+21-01-2024,22-01-2024 00:14,20932,Madagascar Chocochip Frappe (450 ML)
+21-01-2024,21-01-2024 23:57,20931,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,21-01-2024 23:57,20931,Cappucino (250 ML)
+21-01-2024,21-01-2024 23:57,20931,Cafe Mocha (250 ML)
+21-01-2024,21-01-2024 23:57,20931,Iced Americano (350 ML)
+21-01-2024,21-01-2024 23:50,20930,Classic Frappe (350 ML)
+21-01-2024,21-01-2024 23:50,20930,OAT MILK (150 ML)
+21-01-2024,21-01-2024 23:50,20930,Berliners (Nutella Berliner)
+21-01-2024,21-01-2024 23:50,20930,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+21-01-2024,21-01-2024 23:41,20929,Cafe Latte (250 ML)
+21-01-2024,21-01-2024 23:41,20929,Almond Honey Latte (250 ML)
+21-01-2024,21-01-2024 23:41,20929,Add On Syrup (Add On Caramel Syrup)
+21-01-2024,21-01-2024 23:41,20929,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,21-01-2024 23:41,20929,ALMOND MILK (200 ML)
+21-01-2024,21-01-2024 23:41,20929,Hazelnut Frappe (350 ML)
+21-01-2024,21-01-2024 23:35,20928,Cafe Latte (250 ML)
+21-01-2024,21-01-2024 23:35,20928,Madagascar Hot Chocolate (250 ML)
+21-01-2024,21-01-2024 23:35,20928,Baked Vada Pav
+21-01-2024,21-01-2024 23:29,20927,Kaapicino (250 ML)
+21-01-2024,21-01-2024 23:29,20927,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 23:11,C2308,Madagascar Hot Chocolate (250 ML)
+21-01-2024,21-01-2024 23:07,20926,Cappucino (250 ML)
+21-01-2024,21-01-2024 22:52,20925,Hot Chocolate (250 ML)
+21-01-2024,21-01-2024 22:35,20924,Classic Frappe (350 ML)
+21-01-2024,21-01-2024 22:35,20924,South Indian Filter Kaapi (250 ML)
+21-01-2024,21-01-2024 22:27,20923,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 22:27,20922,Yellow Banana Chips 60 Gm
+21-01-2024,21-01-2024 22:27,20922,Tartlets (chocolate Tartlet)
+21-01-2024,21-01-2024 22:27,20922,Hot Chocolate (250 Ml)
+21-01-2024,21-01-2024 22:16,20921,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 22:08,C2307,Papparoti (Add On Nutella sauce)
+21-01-2024,21-01-2024 22:05,20920,South Indian Filter Kaapi (250 ML)
+21-01-2024,21-01-2024 21:53,20919,Nariyal Irish Cream Frappe (350 ML)
+21-01-2024,21-01-2024 21:53,20919,Sea Salt Dark Mocha (250 ML)
+21-01-2024,21-01-2024 21:53,20919,Mix Berliner 2 Pcs (Nutella Berliner)
+21-01-2024,21-01-2024 21:53,20919,Mix Berliner 2 Pcs (Blueberry Cheese Cake Berliner)
+21-01-2024,21-01-2024 21:53,20919,Papparoti (Plain)
+21-01-2024,21-01-2024 21:53,20919,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 21:49,20918,Hot Chocolate (250 ML)
+21-01-2024,21-01-2024 21:34,20917,Madagascar Hot Chocolate (250 ML)
+21-01-2024,21-01-2024 21:32,20916,Classic Frappe (350 Ml)
+21-01-2024,21-01-2024 21:13,20915,Spicy Banana Chips 60 Gm
+21-01-2024,21-01-2024 21:13,20914,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 21:13,20914,Baked Vada Pav
+21-01-2024,21-01-2024 21:11,C2306,Iced Americano (350 ML)
+21-01-2024,21-01-2024 21:11,C2306,Baked Pav Bhaji
+21-01-2024,21-01-2024 20:57,20913,Nariyal Irish Cream Frappe (350 ML)
+21-01-2024,21-01-2024 20:36,C2305,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 20:36,C2305,Baked Pav Bhaji
+21-01-2024,21-01-2024 20:01,C2304,Vietnamese (350 ML)
+21-01-2024,21-01-2024 20:01,C2303,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 20:01,C2303,Baked Pav Bhaji
+21-01-2024,21-01-2024 19:56,20912,Kaapicino (250 ML)
+21-01-2024,21-01-2024 19:56,20912,Almond Honey Latte (250 ML)
+21-01-2024,21-01-2024 19:56,20912,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 19:56,20912,Papparoti (Plain)
+21-01-2024,21-01-2024 19:44,20911,Baked Vada Pav
+21-01-2024,21-01-2024 19:44,20911,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 19:36,C2302,Papparoti (Add On Nutella sauce)
+21-01-2024,21-01-2024 19:35,C2301,Berliners (Nutella Berliner)
+21-01-2024,21-01-2024 19:33,20910,Spicy Banana Chips 60 Gm
+21-01-2024,21-01-2024 19:32,C2300,Kaapicino (250 ML)
+21-01-2024,21-01-2024 19:32,C2300,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+21-01-2024,21-01-2024 19:32,C2300,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+21-01-2024,21-01-2024 19:15,C2299,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 19:15,C2299,Iced Americano (350 ML)
+21-01-2024,21-01-2024 19:15,C2299,Add On Syrup (Add On Irish Syrup)
+21-01-2024,21-01-2024 19:11,C2298,Spicy Banana Chips 60 Gm
+21-01-2024,21-01-2024 19:11,C2298,Yellow Banana Chips 60 Gm
+21-01-2024,21-01-2024 19:11,C2298,Plain Nankhatai Veg
+21-01-2024,21-01-2024 19:11,C2298,Choco-crinkle-cookies (COMBO 6 PCS)
+21-01-2024,21-01-2024 19:02,20909,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 19:02,20909,Baked Vada Pav
+21-01-2024,21-01-2024 19:00,20908,Americano (250 ML)
+21-01-2024,21-01-2024 18:59,20907,Malnad Tonic (choice Of Tonic)
+21-01-2024,21-01-2024 18:59,20906,Vanilla Praline (350 ML)
+21-01-2024,21-01-2024 18:59,20906,Cappucino (250 ML)
+21-01-2024,21-01-2024 18:59,20906,OAT MILK (200 ML)
+21-01-2024,21-01-2024 18:54,20905,Americano (250 ML)
+21-01-2024,21-01-2024 18:48,20904,Hazelnut Frappe (350 ML)
+21-01-2024,21-01-2024 18:48,20904,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,21-01-2024 18:30,20903,South Indian Filter Kaapi (250 ML)
+21-01-2024,21-01-2024 18:26,20902,Berliners (Lotus Biscoff Berliner)
+21-01-2024,21-01-2024 18:17,20901,Iced Mocha (350 ML)
+21-01-2024,21-01-2024 18:16,20900,Vietnamese (350 ML)
+21-01-2024,21-01-2024 18:16,20900,Vanilla Praline (350 ML)
+21-01-2024,21-01-2024 18:12,20899,Sea Salt Dark Mocha Frappe (350 ML)
+21-01-2024,21-01-2024 18:12,20899,Nariyal Irish Cream Frappe (350 ML)
+21-01-2024,21-01-2024 18:12,20899,Papparoti (Add On Nutella sauce)
+21-01-2024,21-01-2024 18:12,20899,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+21-01-2024,21-01-2024 18:12,20899,Cafe Latte (250 ML)
+21-01-2024,21-01-2024 18:07,20898,Cappucino (250 ML)
+21-01-2024,21-01-2024 18:07,20898,Iced Latte (350 ML)
+21-01-2024,21-01-2024 18:05,20897,ESPRESSO (30 ML)
+21-01-2024,21-01-2024 18:05,20897,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 18:05,20897,Baked Pav Bhaji
+21-01-2024,21-01-2024 18:05,20897,Baked Pav Bhaji
+21-01-2024,21-01-2024 18:00,20896,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 18:00,20896,Choco-crinkle-cookies (COMBO 3 PCS)
+21-01-2024,21-01-2024 18:00,20896,Cafe Latte (250 ML)
+21-01-2024,21-01-2024 17:53,20895,Almond Frappe (350 ML)
+21-01-2024,21-01-2024 17:21,20894,Berliners (Lotus Biscoff Berliner)
+21-01-2024,21-01-2024 17:21,20894,Berliners (Dark Choco Mousse Berliner)
+21-01-2024,21-01-2024 17:13,20893,Iced Americano (350 ML)
+21-01-2024,21-01-2024 17:13,20893,Iced Mocha (350 ML)
+21-01-2024,21-01-2024 17:13,20893,Berliners (Dark Choco Mousse Berliner)
+21-01-2024,21-01-2024 17:09,20892,Cold Brew
+21-01-2024,21-01-2024 17:07,20891,Iced Latte (350 ML)
+21-01-2024,21-01-2024 17:07,20891,Vietnamese (350 ML)
+21-01-2024,21-01-2024 17:07,20891,Choco-crinkle-cookies (COMBO 3 PCS)
+21-01-2024,21-01-2024 17:05,C2297,Rosella Cheesecake Berliner
+21-01-2024,21-01-2024 17:05,C2297,Calzones Veg (Calzone Paneer)
+21-01-2024,21-01-2024 16:50,20890,Choco-crinkle-cookies (COMBO 3 PCS)
+21-01-2024,21-01-2024 16:49,20889,Irish Americano (350 ML)
+21-01-2024,21-01-2024 16:49,20889,Classic Frappe (350 ML)
+21-01-2024,21-01-2024 16:21,20888,Mix Tartlet 3 Pcs (chocolate Tartlet)
+21-01-2024,21-01-2024 16:21,20888,Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)
+21-01-2024,21-01-2024 16:21,20888,Mix Tartlet 3 Pcs (salted Caramel tartlet)
+21-01-2024,21-01-2024 16:21,20888,Gluten Free Hazelnut Brownie
+21-01-2024,21-01-2024 16:16,20887,Baked Vada Pav
+21-01-2024,21-01-2024 16:00,20886,Nariyal Irish Cream Frappe (350 ML)
+21-01-2024,21-01-2024 16:00,20886,Vietnamese (350 ML)
+21-01-2024,21-01-2024 16:00,20886,Hyderabadi Soya Keema Pav
+21-01-2024,21-01-2024 15:42,20885,Almond Frappe (350 ML)
+21-01-2024,21-01-2024 15:42,20885,Hazelnut Frappe (350 ML)
+21-01-2024,21-01-2024 15:42,20885,Original South Indian Frappe (450 ML)
+21-01-2024,21-01-2024 15:42,20885,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+21-01-2024,21-01-2024 15:42,20885,Berliners (Nutella Berliner)
+21-01-2024,21-01-2024 15:42,20885,Choco-crinkle-cookies (COMBO 3 PCS)
+21-01-2024,21-01-2024 15:39,20884,Iced Americano (350 ML)
+21-01-2024,21-01-2024 15:39,20884,Caramel Frappe (350 ML)
+21-01-2024,21-01-2024 15:12,20883,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+21-01-2024,21-01-2024 15:12,20883,Hazelnut Frappe (350 ML)
+21-01-2024,21-01-2024 15:11,20882,Flat White 250 Ml
+21-01-2024,21-01-2024 15:00,20881,South Indian Filter Kaapi (250 Ml)
+21-01-2024,21-01-2024 14:39,20880,Cappucino (250 ML)
+21-01-2024,21-01-2024 14:39,20880,Almond Honey Latte (250 ML)
+21-01-2024,21-01-2024 14:39,20880,Chicken Calzone
+21-01-2024,21-01-2024 14:39,20880,Choco-crinkle-cookies (COMBO 3 PCS)
+21-01-2024,21-01-2024 14:39,20880,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+21-01-2024,21-01-2024 14:34,20879,Cappucino (250 ML)
+21-01-2024,21-01-2024 14:34,20879,Baked Vada Pav
+21-01-2024,21-01-2024 14:34,20879,Hyderabadi Chicken Keema Pav
+21-01-2024,21-01-2024 14:34,20879,South Indian Filter Kaapi (250 ML)
+21-01-2024,21-01-2024 14:34,20879,Calzones Veg (Calzone Paneer)
+21-01-2024,21-01-2024 14:34,20879,Spicy Banana Chips 60 Gm
+21-01-2024,21-01-2024 14:30,C2296,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+21-01-2024,21-01-2024 14:26,20878,Classic Frappe (350 ML)
+21-01-2024,21-01-2024 14:26,20878,Yellow Banana Chips 60 Gm
+21-01-2024,21-01-2024 14:26,20878,Mix Berliner 2 Pcs (Blueberry Cheese Cake Berliner)
+21-01-2024,21-01-2024 14:26,20878,Mix Berliner 2 Pcs (Nutella Berliner)
+21-01-2024,21-01-2024 14:10,20877,Vietnamese (350 ML)
+21-01-2024,21-01-2024 14:04,20876,Tartlets (Kacha Nimbu Tartlet)
+21-01-2024,21-01-2024 14:04,20876,Mix Berliner 2 Pcs (Lotus Biscoff Berliner)
+21-01-2024,21-01-2024 14:04,20876,Mix Berliner 2 Pcs (Nutella Berliner)
+21-01-2024,21-01-2024 14:04,20876,Baked Vada Pav
+21-01-2024,21-01-2024 14:04,20876,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+21-01-2024,21-01-2024 13:46,20875,Vietnamese (350 ML)
+21-01-2024,21-01-2024 13:41,20874,Spicy Banana Chips 60 Gm
+21-01-2024,21-01-2024 13:26,20873,Papparoti (Add On Nutella sauce)
+21-01-2024,21-01-2024 13:26,20873,Rosella Cheesecake Berliner
+21-01-2024,21-01-2024 13:26,20873,Baked Vada Pav
+21-01-2024,21-01-2024 13:26,20873,Cafe Mocha (250 ML)
+21-01-2024,21-01-2024 13:26,20873,Vietnamese (350 ML)
+21-01-2024,21-01-2024 13:26,20873,Calzones Veg (Calzone Paneer)
+21-01-2024,21-01-2024 13:26,20873,Calzones Veg (Calzone Veg)
+21-01-2024,21-01-2024 13:24,20872,Tartlets (chocolate Tartlet)
+21-01-2024,21-01-2024 13:24,20872,Tartlets (Salted Caramel Tartlet)
+21-01-2024,21-01-2024 13:24,20872,Tartlets (Filter Kaapi Tartlet)
+21-01-2024,21-01-2024 13:24,20872,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 13:24,20872,Hot Chocolate (250 ML)
+21-01-2024,21-01-2024 13:24,20872,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 13:24,20872,Papparoti (Plain)
+21-01-2024,21-01-2024 13:24,20872,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 13:08,20871,Vanilla Praline (350 ML)
+21-01-2024,21-01-2024 13:08,20871,Calzones Veg (Calzone Veg)
+21-01-2024,21-01-2024 13:08,20871,Calzones Veg (Calzone Veg)
+21-01-2024,21-01-2024 12:46,20870,Hyderabadi Chicken Keema Pav
+21-01-2024,21-01-2024 12:46,20870,Iced Americano (350 ML)
+21-01-2024,21-01-2024 12:46,20870,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 12:10,C2295,South Indian Filter Kaapi (150 ML)
+21-01-2024,21-01-2024 11:46,20869,Original South Indian Frappe (450 ML)
+21-01-2024,21-01-2024 11:46,20869,Spicy Banana Chips 60 Gm
+21-01-2024,21-01-2024 11:42,20868,Almond Frappe (350 ML)
+21-01-2024,21-01-2024 11:42,20868,Cappucino (250 ML)
+21-01-2024,21-01-2024 11:42,20867,Berliners (Dark Choco Mousse Berliner)
+21-01-2024,21-01-2024 11:42,20867,Hyderabadi Chicken Keema Pav
+21-01-2024,21-01-2024 11:42,20867,Calzones Veg (Calzone Veg)
+21-01-2024,21-01-2024 11:30,20866,Sea Salt Dark Mocha Frappe (350 ML)
+21-01-2024,21-01-2024 11:30,20866,Malnad Tonic (choice Of Tonic)
+21-01-2024,21-01-2024 11:26,C2294,Baked Pav Bhaji
+21-01-2024,21-01-2024 11:26,C2294,Baked Vada Pav
+21-01-2024,21-01-2024 11:05,20865,Americano (250 ML)
+21-01-2024,21-01-2024 10:25,20864,ESPRESSO (60 ML)
+21-01-2024,21-01-2024 10:25,20864,Original South Indian Frappe (350 ML)
+21-01-2024,21-01-2024 09:37,20863,ESPRESSO (60 ML)
+21-01-2024,21-01-2024 09:37,20863,Americano (250 ML)
+21-01-2024,21-01-2024 09:32,20862,Pour Over
+21-01-2024,21-01-2024 09:22,20861,Bon Bon (350 ML)
+21-01-2024,21-01-2024 08:57,20860,Cappucino (250 ML)
+21-01-2024,21-01-2024 06:21,20859,Iced Americano (350 ML)
+21-01-2024,21-01-2024 05:31,C2293,Papparoti (Plain)
+21-01-2024,21-01-2024 04:32,20858,Baked Vada Pav
+21-01-2024,21-01-2024 04:32,20858,Chicken Calzone
+21-01-2024,21-01-2024 04:32,20858,Tartlets (chocolate Tartlet)
+21-01-2024,21-01-2024 03:44,20857,Madagascar Chocochip Frappe (350 ML)
+21-01-2024,21-01-2024 03:44,20857,Caramel Frappe (350 ML)
+21-01-2024,21-01-2024 03:44,20857,Original South Indian Frappe (450 ML)
+21-01-2024,21-01-2024 03:27,20856,Hot Chocolate (250 Ml)
+21-01-2024,21-01-2024 03:25,20855,Baked Pav Bhaji
+21-01-2024,21-01-2024 03:25,20855,Calzones Veg (Calzone Paneer)
+21-01-2024,21-01-2024 03:21,20854,Original South Indian Frappe (450 ML)
+21-01-2024,21-01-2024 03:11,20853,Iced Latte (450 ML)
+21-01-2024,21-01-2024 03:11,20853,Add On Syrup (Add On Vanilla Syrup)
+21-01-2024,21-01-2024 03:11,20853,Cappucino (250 ML)
+21-01-2024,21-01-2024 03:11,20853,Baked Vada Pav
+21-01-2024,21-01-2024 02:37,20852,Baked Vada Pav
+21-01-2024,21-01-2024 02:37,20852,Sea Salt Dark Mocha Frappe (350 ML)
+21-01-2024,21-01-2024 02:35,20851,Hyderabadi Chicken Keema Pav
+21-01-2024,21-01-2024 02:33,20850,Kaapicino (250 ML)
+21-01-2024,21-01-2024 02:31,20849,Berliners (Dark Choco Mousse Berliner)
+20-01-2024,21-01-2024 02:28,20848,Cafe Mocha (250 ML)
+20-01-2024,21-01-2024 02:19,20847,Cafe Mocha (250 ML)
+20-01-2024,21-01-2024 02:19,20847,Yellow Banana Chips 60 Gm
+20-01-2024,21-01-2024 02:19,20847,Spicy Banana Chips 60 Gm
+20-01-2024,21-01-2024 02:19,20846,Original South Indian Frappe (350 ML)
+20-01-2024,21-01-2024 02:19,20846,Tartlets (Kacha Nimbu Tartlet)
+20-01-2024,21-01-2024 02:15,20845,Hazelnut Frappe (350 ML)
+20-01-2024,21-01-2024 02:15,20845,Iced Latte (350 ML)
+20-01-2024,21-01-2024 02:15,20845,Calzones Veg (Calzone Paneer)
+20-01-2024,21-01-2024 02:15,20845,Berliners (Dark Choco Mousse Berliner)
+20-01-2024,21-01-2024 02:11,20844,Madagascar Chocochip Frappe (350 ML)
+20-01-2024,21-01-2024 02:11,20844,Americano (250 ML)
+20-01-2024,21-01-2024 02:11,20844,Baked Vada Pav
+20-01-2024,21-01-2024 02:11,20844,Baked Vada Pav
+20-01-2024,21-01-2024 02:11,20844,Calzones Veg (Calzone Veg)
+20-01-2024,21-01-2024 02:11,20843,Americano (250 ML)
+20-01-2024,21-01-2024 02:11,20843,Madagascar Chocochip Frappe (350 ML)
+20-01-2024,21-01-2024 02:11,20843,Cappucino (250 ML)
+20-01-2024,21-01-2024 02:10,20842,Baked Vada Pav
+20-01-2024,21-01-2024 02:10,20842,Berliners (Nutella Berliner)
+20-01-2024,21-01-2024 02:10,20842,Baked Vada Pav
+20-01-2024,21-01-2024 02:10,20842,Hyderabadi Chicken Keema Pav
+20-01-2024,21-01-2024 02:10,20842,Berliners (Nutella Berliner)
+20-01-2024,21-01-2024 02:06,20841,Yellow Banana Chips 60 Gm
+20-01-2024,21-01-2024 02:06,20841,Madagascar Chocochip Frappe (450 ML)
+20-01-2024,21-01-2024 02:05,20840,Berliner Mix 3 Pcs (Lotus Biscoff Berliner)
+20-01-2024,21-01-2024 02:05,20840,Berliner Mix 3 Pcs (Nutella Berliner)
+20-01-2024,21-01-2024 02:05,20840,Berliner Mix 3 Pcs (Dark Choco Mousse Berliner)
+20-01-2024,21-01-2024 02:05,20840,Baked Vada Pav
+20-01-2024,21-01-2024 02:02,20839,Caramel Frappe (350 ML)
+20-01-2024,21-01-2024 02:02,20839,Vietnamese (350 ML)
+20-01-2024,21-01-2024 01:53,20838,Papparoti (Add On Nutella sauce)
+20-01-2024,21-01-2024 01:53,20838,Calzones Veg (Calzone Paneer)
+20-01-2024,21-01-2024 01:53,20838,Calzones Veg (Calzone Veg)
+20-01-2024,21-01-2024 01:53,20838,Mix Tartlet 3 Pcs (chocolate Tartlet)
+20-01-2024,21-01-2024 01:53,20838,Mix Tartlet 3 Pcs (Filter Kaapi Tartlet)
+20-01-2024,21-01-2024 01:53,20838,Mix Tartlet 3 Pcs (salted Caramel tartlet)
+20-01-2024,21-01-2024 01:39,20837,South Indian Filter Kaapi (250 ML)
+20-01-2024,21-01-2024 01:39,20837,Kaapicino (250 ML)
+20-01-2024,21-01-2024 01:39,20837,Vanilla Praline (350 ML)
+20-01-2024,21-01-2024 01:39,20837,Original South Indian Frappe (350 ML)
+20-01-2024,21-01-2024 01:39,20837,ALMOND MILK (200 ML)
+20-01-2024,21-01-2024 01:39,20837,Papparoti (Plain)
+20-01-2024,21-01-2024 01:31,20836,Bon Bon (350 ML)
+20-01-2024,21-01-2024 01:31,20836,Hyderabadi Chicken Keema Pav
+20-01-2024,21-01-2024 01:30,20835,Papparoti (Add On Nutella sauce)
+20-01-2024,21-01-2024 01:09,20834,Cafe Latte (250 ML)
+20-01-2024,21-01-2024 01:09,20834,Hot Chocolate (250 ML)
+20-01-2024,21-01-2024 00:55,20833,Hazelnut Frappe (450 ML)
+20-01-2024,21-01-2024 00:55,20833,Calzones Veg (Calzone Veg)
+20-01-2024,21-01-2024 00:55,20833,Baked Vada Pav
+20-01-2024,21-01-2024 00:52,20832,Vietnamese (450 ML)
+20-01-2024,21-01-2024 00:52,20832,Gluten Free Hazelnut Brownie
+20-01-2024,21-01-2024 00:47,C2292,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,21-01-2024 00:47,C2292,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,21-01-2024 00:41,20831,Papparoti (Add On Nutella sauce)
+20-01-2024,21-01-2024 00:41,20831,Hot Chocolate (250 ML)
+20-01-2024,21-01-2024 00:41,20831,Madagascar Chocochip Frappe (350 ML)
+20-01-2024,21-01-2024 00:41,20831,Calzones Veg (Calzone Veg)
+20-01-2024,21-01-2024 00:41,20831,South Indian Filter Kaapi (250 ML)
+20-01-2024,21-01-2024 00:41,20831,South Indian Filter Kaapi (150 ML)
+20-01-2024,21-01-2024 00:39,20830,Spicy Banana Chips 60 Gm
+20-01-2024,21-01-2024 00:19,20829,Bon Bon (350 ML)
+20-01-2024,21-01-2024 00:12,20828,Vietnamese (350 ML)
+20-01-2024,21-01-2024 00:12,20828,ALMOND MILK (200 ML)
+20-01-2024,21-01-2024 00:11,20827,Classic Frappe (350 ML)
+20-01-2024,21-01-2024 00:11,20827,Iced Mocha (350 ML)
+20-01-2024,21-01-2024 00:07,20826,Bon Bon (450 ML)
+20-01-2024,21-01-2024 00:07,20826,Madagascar Chocochip Frappe (450 ML)
+20-01-2024,21-01-2024 00:01,20825,Hot Chocolate (350 ML)
+20-01-2024,21-01-2024 00:01,20825,Vietnamese (350 ML)
+20-01-2024,21-01-2024 00:01,20825,ALMOND MILK (200 ML)
+20-01-2024,20-01-2024 23:55,20824,Americano (350 ML)
+20-01-2024,20-01-2024 23:55,20824,Americano (250 ML)
+20-01-2024,20-01-2024 23:48,20823,Madagascar Hot Chocolate (250 ML)
+20-01-2024,20-01-2024 23:48,20823,Cafe Mocha (250 ML)
+20-01-2024,20-01-2024 23:48,20823,Bon Bon (350 ML)
+20-01-2024,20-01-2024 23:34,20822,Cafe Mocha (350 Ml)
+20-01-2024,20-01-2024 23:34,20821,Flat White 250 Ml
+20-01-2024,20-01-2024 23:33,20820,Classic Frappe (350 ML)
+20-01-2024,20-01-2024 23:33,20820,Iced Latte (350 ML)
+20-01-2024,20-01-2024 23:31,20819,Cappucino (250 ML)
+20-01-2024,20-01-2024 23:31,20819,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 23:31,20819,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,20-01-2024 23:24,20818,Cappucino (250 ML)
+20-01-2024,20-01-2024 23:24,20818,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 23:24,20818,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 23:24,20818,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 23:24,20818,Cappucino (250 ML)
+20-01-2024,20-01-2024 23:24,20818,Vanilla Praline (350 ML)
+20-01-2024,20-01-2024 23:18,20817,Yellow Banana Chips 60 Gm
+20-01-2024,20-01-2024 23:18,20817,Madagascar Chocochip Frappe (450 ML)
+20-01-2024,20-01-2024 23:11,20816,Choco-crinkle-cookies (COMBO 6 PCS)
+20-01-2024,20-01-2024 22:58,20815,Papparoti (Plain)
+20-01-2024,20-01-2024 22:56,20814,Almond Frappe (350 ML)
+20-01-2024,20-01-2024 22:56,20814,Kaapicino (250 ML)
+20-01-2024,20-01-2024 22:55,20813,Classic Frappe (450 ML)
+20-01-2024,20-01-2024 22:51,20812,Almond Frappe (450 Ml)
+20-01-2024,20-01-2024 22:51,20812,Madagascar Hot Chocolate (350 Ml)
+20-01-2024,20-01-2024 22:48,20811,Coconut Nankhatai (with Egg)
+20-01-2024,20-01-2024 22:40,20810,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 22:40,20810,Papparoti (Add On Nutella sauce)
+20-01-2024,20-01-2024 22:40,20810,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 21:38,20809,Madagascar Chocochip Frappe (350 ML)
+20-01-2024,20-01-2024 21:38,20809,Cappucino (250 ML)
+20-01-2024,20-01-2024 21:23,20808,Iced Americano (350 ML)
+20-01-2024,20-01-2024 21:23,20808,Madagascar Chocochip Frappe (450 ML)
+20-01-2024,20-01-2024 21:20,20807,Iced Americano (350 ML)
+20-01-2024,20-01-2024 21:20,20807,Baked Vada Pav
+20-01-2024,20-01-2024 21:02,20806,South Indian Filter Kaapi (250 ML)
+20-01-2024,20-01-2024 20:56,20805,Iced Americano (350 ML)
+20-01-2024,20-01-2024 20:56,20805,Add On Syrup (Add On Vanilla Syrup)
+20-01-2024,20-01-2024 20:56,20805,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 20:56,20805,Baked Vada Pav
+20-01-2024,20-01-2024 20:44,20804,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 20:34,20803,Classic Frappe (350 ML)
+20-01-2024,20-01-2024 20:15,C2291,Hazelnut Frappe (350 ML)
+20-01-2024,20-01-2024 19:54,20802,Berliners (Nutella Berliner)
+20-01-2024,20-01-2024 19:54,20802,Choco-crinkle-cookies (COMBO 3 PCS)
+20-01-2024,20-01-2024 19:51,20801,Mix Berliner 2 Pcs (Blueberry Cheese Cake Berliner)
+20-01-2024,20-01-2024 19:51,20801,Classic Frappe (350 ML)
+20-01-2024,20-01-2024 19:51,20801,Nariyal Irish Cream Frappe (350 ML)
+20-01-2024,20-01-2024 19:51,20801,Hyderabadi Chicken Keema Pav
+20-01-2024,20-01-2024 19:39,20800,Baked Vada Pav
+20-01-2024,20-01-2024 19:39,20800,Hazelnut Frappe (350 ML)
+20-01-2024,20-01-2024 19:39,20800,Vanilla Praline (350 ML)
+20-01-2024,20-01-2024 19:39,20800,Mix Berliner 2 Pcs (Lotus Biscoff Berliner)
+20-01-2024,20-01-2024 19:39,20800,Mix Berliner 2 Pcs (Nutella Berliner)
+20-01-2024,20-01-2024 19:39,20800,Iced Americano (350 ML)
+20-01-2024,20-01-2024 19:39,20799,Caramel Frappe (350 ML)
+20-01-2024,20-01-2024 19:39,20799,Iced Americano (350 ML)
+20-01-2024,20-01-2024 19:39,20799,Baked Vada Pav
+20-01-2024,20-01-2024 19:39,20799,Hyderabadi Chicken Keema Pav
+20-01-2024,20-01-2024 19:36,20798,Cappucino (250 ML)
+20-01-2024,20-01-2024 19:29,20797,Cappucino (250 ML)
+20-01-2024,20-01-2024 19:15,20796,Hot Chocolate (250 ML)
+20-01-2024,20-01-2024 19:02,C2290,Cappucino (250 ML)
+20-01-2024,20-01-2024 19:02,C2290,Add On Syrup (Add On hazelnuts Syrup)
+20-01-2024,20-01-2024 19:02,C2290,Papparoti (Plain)
+20-01-2024,20-01-2024 18:58,20795,South Indian Filter Kaapi (250 ML)
+20-01-2024,20-01-2024 18:58,20795,Americano (350 ML)
+20-01-2024,20-01-2024 18:58,20795,Irish Americano (250 ML)
+20-01-2024,20-01-2024 18:52,20794,Hazelnut Frappe (450 Ml)
+20-01-2024,20-01-2024 18:47,20793,Classic Frappe (350 ML)
+20-01-2024,20-01-2024 18:47,20793,Hot Chocolate (250 ML)
+20-01-2024,20-01-2024 18:47,20793,Mix Berliner 2 Pcs (Lotus Biscoff Berliner)
+20-01-2024,20-01-2024 18:47,20793,Mix Berliner 2 Pcs (Dark Choco Mousse Berliner)
+20-01-2024,20-01-2024 18:47,20793,Sea Salt Dark Mocha Frappe (350 ML)
+20-01-2024,20-01-2024 18:47,20793,OAT MILK (200 ML)
+20-01-2024,20-01-2024 18:47,20793,Spicy Banana Chips 60 Gm
+20-01-2024,20-01-2024 18:44,20792,Vietnamese (350 ML)
+20-01-2024,20-01-2024 18:44,20792,Madagascar Chocochip Frappe (350 ML)
+20-01-2024,20-01-2024 18:44,20792,Berliner Mix 3 Pcs (Lotus Biscoff Berliner)
+20-01-2024,20-01-2024 18:33,20791,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 18:33,20791,Almond Frappe (350 ML)
+20-01-2024,20-01-2024 18:33,20791,Americano (250 ML)
+20-01-2024,20-01-2024 18:33,20791,Chicken Calzone
+20-01-2024,20-01-2024 18:29,20790,Kaapicino (250 ML)
+20-01-2024,20-01-2024 18:18,20789,Cappucino (250 ML)
+20-01-2024,20-01-2024 18:13,C2289,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 18:13,C2289,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,20-01-2024 18:08,20788,Papparoti (Plain)
+20-01-2024,20-01-2024 18:08,20788,Rosella Jam With Filter Coffee Ganache Macaroon (3 PCS)
+20-01-2024,20-01-2024 18:08,20788,Yellow Banana Chips 60 Gm
+20-01-2024,20-01-2024 18:08,20788,Calzones Veg (Calzone Veg)
+20-01-2024,20-01-2024 18:06,20787,Kaapicino (250 ML)
+20-01-2024,20-01-2024 18:03,20786,Kaapicino (250 ML)
+20-01-2024,20-01-2024 17:56,20785,Cold Brew
+20-01-2024,20-01-2024 17:45,20784,Flat White 250 Ml
+20-01-2024,20-01-2024 17:43,20783,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 17:39,20782,Cappucino (250 ML)
+20-01-2024,20-01-2024 17:39,20782,OAT MILK (200 ML)
+20-01-2024,20-01-2024 17:39,20782,Sea Salt Dark Mocha (250 ML)
+20-01-2024,20-01-2024 17:24,20781,Almond Honey Latte (250 ML)
+20-01-2024,20-01-2024 17:24,20781,Kaapicino (250 ML)
+20-01-2024,20-01-2024 17:24,20781,Papparoti (Plain)
+20-01-2024,20-01-2024 17:23,C2288,Vietnamese (350 ML)
+20-01-2024,20-01-2024 17:17,20780,Tartlets (chocolate Tartlet)
+20-01-2024,20-01-2024 17:17,20780,Tartlets (Filter Kaapi Tartlet)
+20-01-2024,20-01-2024 17:05,20779,Iced Americano (350 ML)
+20-01-2024,20-01-2024 17:05,20779,Cafe Mocha (250 ML)
+20-01-2024,20-01-2024 17:05,20779,Iced Mocha (350 ML)
+20-01-2024,20-01-2024 17:05,20779,OAT MILK (200 ML)
+20-01-2024,20-01-2024 17:01,20778,Cafe Latte (250 ML)
+20-01-2024,20-01-2024 17:01,20778,Add On Syrup (Add On Vanilla Syrup)
+20-01-2024,20-01-2024 16:55,20777,Kaapicino (350 ML)
+20-01-2024,20-01-2024 16:55,20777,Vietnamese (350 ML)
+20-01-2024,20-01-2024 16:55,20777,Calzones Veg (Calzone Paneer)
+20-01-2024,20-01-2024 16:55,20777,Berliner Mix 3 Pcs (Lotus Biscoff Berliner)
+20-01-2024,20-01-2024 16:55,20777,Berliner Mix 3 Pcs (Dark Choco Mousse Berliner)
+20-01-2024,20-01-2024 16:55,20777,Mix Tartlet 3 Pcs (chocolate Tartlet)
+20-01-2024,20-01-2024 16:55,20777,Mix Tartlet 3 Pcs (salted Caramel tartlet)
+20-01-2024,20-01-2024 16:55,20777,Berliners (Dark Choco Mousse Berliner)
+20-01-2024,20-01-2024 16:45,20776,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 16:45,20776,Vietnamese (350 ML)
+20-01-2024,20-01-2024 16:30,C2287,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 16:14,20775,Cappucino (250 ML)
+20-01-2024,20-01-2024 16:14,20775,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 16:14,20775,Papparoti (Plain)
+20-01-2024,20-01-2024 16:14,20775,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 16:14,20775,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,20-01-2024 16:12,20774,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 16:08,20773,Hyderabadi Chicken Keema Pav
+20-01-2024,20-01-2024 16:08,20773,Mix Berliner 2 Pcs (Nutella Berliner)
+20-01-2024,20-01-2024 16:08,20773,Choco-crinkle-cookies (COMBO 3 PCS)
+20-01-2024,20-01-2024 16:08,20773,Madagascar Chocochip Frappe (350 ML)
+20-01-2024,20-01-2024 16:08,20773,Calzones Veg (Calzone Veg)
+20-01-2024,20-01-2024 15:54,20772,Vietnamese (350 ML)
+20-01-2024,20-01-2024 15:54,20772,Vanilla Praline (350 ML)
+20-01-2024,20-01-2024 15:54,20772,Sea Salt Dark Mocha (250 ML)
+20-01-2024,20-01-2024 15:54,20772,Chicken Calzone
+20-01-2024,20-01-2024 15:54,20772,Calzone Mix 3 Pc (Calzone Paneer)
+20-01-2024,20-01-2024 15:53,20771,Hyderabadi Chicken Keema Pav
+20-01-2024,20-01-2024 15:52,20770,Hazelnut Frappe (350 ML)
+20-01-2024,20-01-2024 15:26,20769,Iced Latte (350 ML)
+20-01-2024,20-01-2024 15:26,20769,Original South Indian Frappe (450 ML)
+20-01-2024,20-01-2024 15:25,20768,Iced Americano (350 ML)
+20-01-2024,20-01-2024 15:23,20767,Original South Indian Frappe (450 ML)
+20-01-2024,20-01-2024 14:57,20766,Chicken Calzone
+20-01-2024,20-01-2024 14:57,20766,Baked Vada Pav
+20-01-2024,20-01-2024 14:57,20766,Almond Honey Latte (250 ML)
+20-01-2024,20-01-2024 14:57,20766,Berliners (Nutella Berliner)
+20-01-2024,20-01-2024 14:57,20766,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 14:57,20766,Cashew Nuts Nankhatai Veg
+20-01-2024,20-01-2024 14:56,C2286,Vietnamese (350 ML)
+20-01-2024,20-01-2024 14:56,C2286,Irish Americano (250 ML)
+20-01-2024,20-01-2024 14:53,C2285,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,20-01-2024 14:53,C2285,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 14:25,C2284,Cappucino (250 ML)
+20-01-2024,20-01-2024 14:25,C2284,Cafe Latte (250 ML)
+20-01-2024,20-01-2024 14:23,C2283,Original South Indian Frappe (350 ML)
+20-01-2024,20-01-2024 14:07,C2282,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 14:07,C2282,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,20-01-2024 14:07,C2282,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 14:05,20765,Cappucino (250 ML)
+20-01-2024,20-01-2024 14:02,20764,Classic Frappe (350 Ml)
+20-01-2024,20-01-2024 13:57,C2281,Gluten Free Hazelnut Brownie
+20-01-2024,20-01-2024 13:49,20763,Hot Chocolate (250 ML)
+20-01-2024,20-01-2024 13:41,C2280,Tartlets (Kacha Nimbu Tartlet)
+20-01-2024,20-01-2024 13:41,C2280,Kaapicino (250 ML)
+20-01-2024,20-01-2024 13:41,C2280,Rosella Jam With Filter Coffee Ganache Macaroon (1 PIC)
+20-01-2024,20-01-2024 13:41,C2280,Strawberry White Chocolate Ganache With Rosella Jam Macaroon
+20-01-2024,20-01-2024 13:41,C2280,Whole Wheat Ladi Pav 4 Pc
+20-01-2024,20-01-2024 13:41,C2280,White Loaf Bread
+20-01-2024,20-01-2024 13:04,C2279,Americano (250 ML)
+20-01-2024,20-01-2024 13:04,C2279,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 13:04,C2279,Papparoti (Plain)
+20-01-2024,20-01-2024 13:02,20762,Kaapicino (250 ML)
+20-01-2024,20-01-2024 13:02,20762,Papparoti (Plain)
+20-01-2024,20-01-2024 13:02,20762,Baked Pav Bhaji
+20-01-2024,20-01-2024 13:02,20762,Baked Vada Pav
+20-01-2024,20-01-2024 12:50,20761,Iced Americano (450 ML)
+20-01-2024,20-01-2024 12:45,20760,Cappucino (250 ML)
+20-01-2024,20-01-2024 12:45,20760,Papparoti (Plain)
+20-01-2024,20-01-2024 11:46,20759,Americano (250 ML)
+20-01-2024,20-01-2024 11:42,20758,Baked Vada Pav
+20-01-2024,20-01-2024 11:41,C2278,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 11:09,C2277,Baked Pav Bhaji
+20-01-2024,20-01-2024 11:09,C2277,Baked Vada Pav
+20-01-2024,20-01-2024 10:19,20757,South Indian Filter Kaapi (150 ML)
+20-01-2024,20-01-2024 10:19,20757,Baked Vada Pav
+20-01-2024,20-01-2024 10:05,20756,South Indian Filter Kaapi (250 ML)
+20-01-2024,20-01-2024 10:05,20756,Chicken Calzone
+20-01-2024,20-01-2024 10:05,20756,Iced Mocha (350 ML)
+20-01-2024,20-01-2024 09:55,20755,Hyderabadi Chicken Keema Pav
+20-01-2024,20-01-2024 09:55,20755,Calzones Veg (Calzone Paneer)
+20-01-2024,20-01-2024 09:30,20754,Americano (250 ML)
+20-01-2024,20-01-2024 09:16,20753,Cappucino (250 ML)
+20-01-2024,20-01-2024 09:16,20753,Iced Latte (350 ML)
+20-01-2024,20-01-2024 09:16,20753,ALMOND MILK (150 ML)
+20-01-2024,20-01-2024 09:16,20753,Add On Syrup (Add On Vanilla Syrup)
+20-01-2024,20-01-2024 09:09,20752,Cappucino (250 ML)
+20-01-2024,20-01-2024 08:04,20751,Choco-crinkle-cookies (COMBO 3 PCS)
+20-01-2024,20-01-2024 07:51,20750,Spicy Banana Chips 60 Gm
+20-01-2024,20-01-2024 07:50,20749,Cafe Latte (250 ML)
+20-01-2024,20-01-2024 07:50,20749,Add On Syrup (Add On hazelnuts Syrup)
+20-01-2024,20-01-2024 07:49,20748,Vietnamese (350 ML)
+20-01-2024,20-01-2024 05:07,20747,Cappucino (250 ML)
+20-01-2024,20-01-2024 05:07,20747,Original South Indian Frappe (450 ML)
+20-01-2024,20-01-2024 05:07,20747,Cafe Mocha (350 ML)
+20-01-2024,20-01-2024 05:07,20747,Hot Chocolate (250 ML)
+20-01-2024,20-01-2024 05:07,20747,Berliners (Blueberry Cheese Cake Berliner)
+20-01-2024,20-01-2024 05:07,20747,Rosella Cheesecake Berliner
+20-01-2024,20-01-2024 03:25,20746,Papparoti (Add On Nutella sauce)
+20-01-2024,20-01-2024 03:25,20746,Baked Pav Bhaji
+20-01-2024,20-01-2024 03:25,20746,South Indian Filter Kaapi (250 ML)
+20-01-2024,20-01-2024 02:48,20745,Cold Brew
+20-01-2024,20-01-2024 02:46,20744,Classic Frappe (350 ML)

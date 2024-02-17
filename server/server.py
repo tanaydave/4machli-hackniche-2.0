@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 import math,random
-import salesAnalysis,reviewAnalysis
+import salesAnalysis,reviewAnalysis , marketBasket
 app = Flask(__name__)
 CORS(app)
 
@@ -20,6 +20,15 @@ def reviews():
     try:
         sentiment_value,filtered_words = reviewAnalysis.get_review_analysis()
         return {'sentiment_value': sentiment_value ,'filtered_words':filtered_words}
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/patterns', methods=['GET'])
+def patterns():
+    try:
+        table = marketBasket.get_patterns()
+        return table
 
     except Exception as e:
         return jsonify({'error': str(e)})
