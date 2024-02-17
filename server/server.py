@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 import math,random
-import salesAnalysis,reviewAnalysis , marketBasket , paymentAnalysis
+import salesAnalysis,reviewAnalysis , marketBasket , paymentAnalysis, AiRecommender, whatsapp
 app = Flask(__name__)
 CORS(app)
 
@@ -62,6 +62,24 @@ def patterns():
         table = marketBasket.get_patterns()
         print(table)
         return table.to_json(orient='records')
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/airecommend', methods=['GET'])
+def airecommend():
+    try:
+        return AiRecommender.ai_prod()
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+    
+@app.route('/whatsapp', methods=['POST'])
+def whatsapp():
+    try:
+        data = request.json
+        text = data.get('text') 
+        return whatsapp.send_msg(text)
 
     except Exception as e:
         return jsonify({'error': str(e)})

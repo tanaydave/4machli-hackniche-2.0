@@ -63,8 +63,6 @@ def get_promotions():
         promotions.append(f"Combo {i+1}: {least} and {most} at a special price of {math.floor(avg)}")
     return promotions   
 
-print(get_promotions())
-
 
 
 
