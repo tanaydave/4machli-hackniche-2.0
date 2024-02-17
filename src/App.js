@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Admin from './components/Navbar/Admin/Admin';
 import Tanay from './components/Navbar/Admin/Tanay';
+import Trial from './components/Navbar/Admin/Trial';
 function App() {
   return (
     <>
@@ -14,7 +15,7 @@ function App() {
       <Route index element={<Home />} />
       <Route path='/admin' element={<Admin/>}></Route>
       <Route path='/tanay' element={<Tanay/>}></Route>
-
+      <Route path='/trial' element={<Trial/>}></Route>
     </Routes>
     </BrowserRouter>
 
