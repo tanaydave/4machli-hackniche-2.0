@@ -1,62 +1,94 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { makeStyles } from "@mui/styles";
-import { Grid } from "@mui/material";
-const useStyles = makeStyles((theme) => ({
-  flexItem: {
-    display: "flex",
-    height: "100%",
-    backgroundColor: "#F2F3F7",
-    marginTop: "10vh",
-    justifyContent: "space-around",
-    [theme.breakpoints.down("md")]: {
-      marginLeft: "30px!important",
-    },
-  },
-}));
+import { Grid,Paper } from "@mui/material";
+import axios from "axios";
+import Carousel from 'react-bootstrap/Carousel';
+
+import Slider from "react-slick";
+import { delay, motion as m, AnimatePresence } from "framer-motion";
+import { Link } from "react-router-dom";
+
+
 
 const Admin = () => {
+  const [promo,setPromo]=useState([])
 
-    console.log("hello");
-  const classes = useStyles();
+ 
+    
+    useEffect(() => {
+      let config = {
+        method: 'get',
+        maxBodyLength: Infinity,
+        url: 'http://127.0.0.1:5000/promotions',
+        headers: { }
+      };
+      
+      axios.request(config)
+      .then((response) => {
+        console.log((response.data));
+        setPromo(response.data)
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+      
+      },[]);
+
+      const renderSlides = () =>{
+        console.log("helo");
+      promo.map((promo) => {
+        console.log("heloo");
+        return(
+          <>
+          hii
+       <div style={{backgroundColor:"blue"}}>
+       </div>
+       </>
+      // console.log(promo)
+)}
+)};
   return (
     <>
+    {promo?<>
+      <Grid conatiner spacing={2}>
+        
 
-    helo
-    <Grid
-        container
-        columnSpacing={4}
-        className={classes.flexItem}
-        sx={{ marginTop: "10vh" }}
-      >
-        <Grid item md={4} xs={12} lg={4}>
-          <Grid item xs={10} lg={12} md={12} mt={3} ml={7} mb={2}>
+      <Grid item md={6}>
+          
+          <Grid container>
+              <Paper elevation={2}>
+              <Grid item md={6} xs={12}>
+              <div style={{backgroundColor:"red"}}>
+                hello
+                
+        <Slider
+          // dots={true}
+          autoplay={true}
+          slidesToShow={4}
+          slidesToScroll={1}
+          autoplaySpeed={4000}
+          infinite={true}
+          arrows={false}
+        >
+          {renderSlides()}
+          
+        </Slider>
+      </div>
+              </Grid>
+              </Paper>
+              <Paper elevation={2}>
+              <Grid item md={6} sm={12}>   
+              </Grid>
+              </Paper>
           </Grid>
-          <Grid item xs={10} lg={12} md={12} mt={3} sx={{ marginLeft: "4vw" }}>
-          </Grid>
-          <Grid item xs={10} lg={12} md={12} mt={3} sx={{ marginLeft: "4vw" }}>
-          </Grid>
-          {/* <Grid item xs={10} lg={12} md={12} mt={5} ml={7} >
-                            <InterviewScheduleCard />
-                        </Grid> */}
-        </Grid>
-        <Grid item md={4} xs={12}>
-          <Grid item xs={10} md={12} mt={3} lg={12}>
-          </Grid>
-        </Grid>
-        <Grid item md={4} xs={12} lg={4}>
-          <Grid item xs={10} lg={12} md={12} mt={3}>
-          </Grid>
-          <Grid item xs={10} lg={12} md={12} mt={3}>
-          </Grid>
-          <Grid item xs={10} lg={12} md={12} mt={3}>
-          </Grid>
-        </Grid>
-
-        <Grid item md={11} xs={10} lg={11}>
-          <Grid item md={12} xs={10} mt={3} lg={12} mb={5}>
-          </Grid>
-        </Grid>
       </Grid>
+
+      </Grid>
+
+    
+    
+    </>:<></>}
+   
     </>
   );
 };
