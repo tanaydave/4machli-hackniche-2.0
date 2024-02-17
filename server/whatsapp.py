@@ -17,5 +17,4 @@ def send_msg(text):
         body= f'{text} Your loyalty points are {lp}',
         to=number
         )
-send_msg()
 
