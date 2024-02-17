@@ -23,3 +23,5 @@ def get_patterns():
     rules = association_rules(frequent_itemsets, metric = "lift", min_threshold = 1)
     rules.sort_values('confidence', ascending = False, inplace = True)
     return rules[['antecedents','consequents','support','confidence','lift']]
+
+

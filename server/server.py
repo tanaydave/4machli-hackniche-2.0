@@ -28,7 +28,8 @@ def reviews():
 def patterns():
     try:
         table = marketBasket.get_patterns()
-        return table
+        print(table)
+        return table.to_json(orient='records')
 
     except Exception as e:
         return jsonify({'error': str(e)})
