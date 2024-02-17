@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import { useEffect } from 'react';
-import { BarChart } from '@mui/x-charts/BarChart';
+
 import Radio from '@mui/material/Radio';
 import {Line} from "react-chartjs-2";
 import { Chart, registerables} from 'chart.js';
@@ -68,7 +68,7 @@ export default function Trial() {
     
   return (
     <div>
-        <div>
+        <div className='h-full'>
       <Radio
         checked={selectedValue === 'a'}
         onChange={handleChange}
@@ -88,7 +88,7 @@ export default function Trial() {
         {dailyfinal?<>
 
         {dailytrans?<>
-    <Line width={350} data={data} style={{
+    <Line width={270} height={200} data={data} style={{
             marginLeft: '30px'
            }}/>
         </>:<></>}
