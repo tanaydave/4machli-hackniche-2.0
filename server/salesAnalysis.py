@@ -29,12 +29,15 @@ def get_weekly_data():
 def get_weekly_sum():
     weekly = get_weekly_data()
     values = list(weekly['final_total'])
+    trans = list(weekly['transactions'])
     weekends = {}
+    transactions = {}
     j=0
     for i in range(0,len(values),2):
         weekends[j+1] = math.floor(values[i] + values[i+1])
+        transactions[j+1] = (trans[i] + trans[i+1])
         j+=1
-    return weekends
+    return {'weekends':weekends,'transactions':transactions}
 
 def get_promotions():
     promotions = []
