@@ -2,23 +2,59 @@ import pandas as pd
 import math,random
 
 
+promotions = []
+sales_data = pd.read_csv('server\dataset\ettara_sales.csv')
+sales_data['date'] = pd.to_datetime(sales_data['Date'])
+
+def get_daily_data():
+    daily_sales = sales_data.groupby(sales_data['date'].dt.date).size().reset_index(name='transactions')
+    final = sales_data.groupby(sales_data['date'].dt.date)['Final Total'].sum().reset_index(name='final_total').sort_values('final_total')
+
+    daily = daily_sales.sort_values('transactions')  
+    daily_sales['date'] = pd.to_datetime(daily_sales['date'])
+    merge = pd.merge(final,daily,on='date', how='left')
+    return merge 
+
+def get_weekly_data():
+    daily_sales = sales_data.groupby(sales_data['date'].dt.date).size().reset_index(name='transactions')
+    daily_sales['date'] = pd.to_datetime(daily_sales['date'])
+    final = sales_data.groupby(sales_data['date'].dt.date)['Final Total'].sum().reset_index(name='final_total').sort_values('final_total')
+    weekend_sales = daily_sales[(daily_sales['date'].dt.dayofweek == 5) | (daily_sales['date'].dt.dayofweek == 6)]
+    weekend_sales = weekend_sales.sort_values('transactions')
+    final['date'] = pd.to_datetime(final['date'])
+    merged_data = pd.merge(weekend_sales, final, on='date', how='left').sort_values('final_total',ascending=False)
+    return merged_data
+
 def get_promotions():
     promotions = []
-    sales_data = pd.read_csv('server\dataset\sales.csv')
-    sales_data['timestamp'] = pd.to_datetime(sales_data['Timestamp'])
-    daily_sales = sales_data.groupby(sales_data['timestamp'].dt.date).size().reset_index(name='transactions')
-    daily_sales['timestamp'] = pd.to_datetime(daily_sales['timestamp'])
-    
-    weekend_sales = daily_sales[(daily_sales['timestamp'].dt.dayofweek == 5) | (daily_sales['timestamp'].dt.dayofweek == 6)]
-    weekend_sales = weekend_sales.sort_values('transactions')
-    weekend_sales['time'] = weekend_sales['timestamp'].dt.strftime('%d-%m-%Y')
-    weekend_sales['time'] = weekend_sales['time'].astype(str)
-    dates = list(weekend_sales['time'])
+    weekly = get_weekly_data()
+    dates = list(weekly['date'].dt.strftime('%Y-%m-%d'))
     
     products1 = sales_data[sales_data['Status'] == "Success"]
-    products1 = products1[products1['Date'].isin(dates)]
-    products = products1['Item Name'].value_counts().tail(15)
-    for product, count in products.items():
-        dis = random.randint(2,5)*5
-        promotions.append(f"Promotion: {dis}% off on {product} during weekends")
-    return promotions
+    products1['Date'] = pd.to_datetime(products1['Date'])
+    products1['Date'] = products1['Date'].dt.strftime('%Y-%m-%d')
+    products = products1['Item Name'].value_counts().sort_values()
+    least_products = products.head(5).index.tolist()  # Index values of the first 5 products
+    most_products = products.tail(5).index.tolist()   # Index values of the last 5 products
+
+    
+    for i in range(5):
+        least = least_products[i]
+        most = most_products[-i]
+        filtered_least = sales_data[sales_data['Item Name'] == least]
+        filtered_most = sales_data[sales_data['Item Name'] == most]
+        price_low = filtered_least['Price'].mean()
+        price_high = filtered_most['Price'].mean() 
+        avg = (price_low + price_high)*0.9
+        promotions.append(f"Combo {i+1}: {least} and {most} at a special price of {math.floor(avg)}")
+    return promotions   
+
+print(get_promotions())
+
+
+
+
+
+
+
+

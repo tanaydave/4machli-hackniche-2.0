@@ -14,7 +14,7 @@ def encode_units(x):
     
     
 def get_patterns():       
-    df = pd.read_csv('server\dataset\marketBasket.csv')
+    df = pd.read_csv('server\dataset\ettara.csv')
     x = df['Item Name'] == "NONE"
     hot_encoded_df = df.groupby(['Invoice No.', 'Item Name'])['Item Name'].count().unstack().fillna(0)
     hot_encoded_df = hot_encoded_df.applymap(encode_units)
@@ -23,5 +23,4 @@ def get_patterns():
     rules = association_rules(frequent_itemsets, metric = "lift", min_threshold = 1)
     rules.sort_values('confidence', ascending = False, inplace = True)
     return rules[['antecedents','consequents','support','confidence','lift']]
-
 

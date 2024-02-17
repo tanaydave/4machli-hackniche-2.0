@@ -7,10 +7,34 @@ import salesAnalysis,reviewAnalysis , marketBasket
 app = Flask(__name__)
 CORS(app)
 
+
+def format_date_without_time(date):
+    return date.strftime('%Y-%m-%d')  # Format as 'YYYY-MM-DD'
+
 @app.route('/promotions', methods=['GET'])
 def promotions():
     try:
         return salesAnalysis.get_promotions()
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/daily', methods=['GET'])
+def daily():
+    try:
+        data = salesAnalysis.get_daily_data()
+        data['date'] = data['date'].apply(format_date_without_time)
+        return data.to_json(orient='records')
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/weekly', methods=['GET'])
+def weekly():
+    try:
+        data = salesAnalysis.get_weekly_data()
+        data['date'] = data['date'].apply(format_date_without_time)
+        return data.to_json(orient='records')       
 
     except Exception as e:
         return jsonify({'error': str(e)})
