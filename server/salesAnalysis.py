@@ -13,7 +13,7 @@ def get_daily_data():
     daily = daily_sales.sort_values('transactions')  
     daily_sales['date'] = pd.to_datetime(daily_sales['date'])
     merge = pd.merge(final,daily,on='date', how='left')
-    return merge 
+    return merge.sort_values('date') 
 
 def get_weekly_data():
     daily_sales = sales_data.groupby(sales_data['date'].dt.date).size().reset_index(name='transactions')
@@ -23,7 +23,18 @@ def get_weekly_data():
     weekend_sales = weekend_sales.sort_values('transactions')
     final['date'] = pd.to_datetime(final['date'])
     merged_data = pd.merge(weekend_sales, final, on='date', how='left').sort_values('final_total',ascending=False)
-    return merged_data
+    
+    return merged_data.sort_values('date') 
+
+def get_weekly_sum():
+    weekly = get_weekly_data()
+    values = list(weekly['final_total'])
+    weekends = {}
+    j=0
+    for i in range(0,len(values),2):
+        weekends[j+1] = math.floor(values[i] + values[i+1])
+        j+=1
+    return weekends
 
 def get_promotions():
     promotions = []

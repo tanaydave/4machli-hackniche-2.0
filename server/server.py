@@ -32,9 +32,8 @@ def daily():
 @app.route('/weekly', methods=['GET'])
 def weekly():
     try:
-        data = salesAnalysis.get_weekly_data()
-        data['date'] = data['date'].apply(format_date_without_time)
-        return data.to_json(orient='records')       
+        data = salesAnalysis.get_weekly_sum()
+        return data     
 
     except Exception as e:
         return jsonify({'error': str(e)})
