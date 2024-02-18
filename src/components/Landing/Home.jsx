@@ -11,7 +11,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Home = () => {
   return (
-    <div class="main1 ">
+    <div class="main1  ">
         <Navbar></Navbar>
       <div class="head-container ">
         <div class="fading-div">

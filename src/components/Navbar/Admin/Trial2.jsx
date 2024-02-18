@@ -78,7 +78,7 @@ export default function Trial2() {
                 labels: [],
                 datasets: [
                     {
-                        label: selectedValue === 'a' ? 'Weekly Income' : 'Hourly Income',
+                        label: selectedValue === 'a' ? 'Weekly Transactions' : 'Hourly Income',
                         data:  transaction,
                         fill: true,
                         borderColor: 'rgb(75, 192, 192)',

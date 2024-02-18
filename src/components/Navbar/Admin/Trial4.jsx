@@ -111,6 +111,11 @@ axios.request(config)
             
             </div>
         <div><Mover1/></div>
+        <div>
+            </div>
+        <div></div>
+        <div></div>
+
         <button onClick={handleOpen1}>
         <div style={{position:"absolute",top:"90%",left:"95%"}}>
             <FaWhatsapp size={60} className=' text-green-700'/>

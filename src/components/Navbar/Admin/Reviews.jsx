@@ -29,7 +29,7 @@ const [sent,sentSent]=useState([])
         makeRequest();
         
     }, [])
-
+    console.log(sent.sentiment_value);
     const data = {
         labels: [],
         datasets: [

@@ -73,7 +73,7 @@ function Navbar() {
         </div> */}
        
         {/* <div className="relative after:content-[''] after:block after:h-[4px] after:w-[100%] after:bg-brown-200 after:scale-x-0 after:origin-left after:ease-in-out after:duration-300 after:hover:scale-x-100 pr-6 pl-3  transition-all delay-100 ease-in">Analytics</div> */}
-        <div className="relative after:content-[''] pb-2 after:block after:h-[4px] after:w-[100%] after:bg-amber-950 after:scale-x-0 after:origin-left after:ease-in-out after:duration-300 after:hover:scale-x-100  2xl:pr-6 2xl:pl-3 text-2xl  transition-all delay-100 ease-in cursor-pointer pt-4">
+        <div className="font-constantia relative after:content-[''] pb-2 after:block after:h-[4px] after:w-[100%] after:bg-amber-950 after:scale-x-0 after:origin-left after:ease-in-out after:duration-300 after:hover:scale-x-100  2xl:pr-6 2xl:pl-3 text-2xl  transition-all delay-100 ease-in cursor-pointer pt-4">
               <Link  to="/trial4">
                 Analytics
               </Link>
