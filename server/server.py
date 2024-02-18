@@ -3,7 +3,8 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
 import math,random
-import salesAnalysis,reviewAnalysis , marketBasket , paymentAnalysis, AiRecommender, whatsapp
+import salesAnalysis,reviewAnalysis , marketBasket , paymentAnalysis, AiRecommender
+import whatsapp_module
 app = Flask(__name__)
 CORS(app)
 
@@ -79,7 +80,7 @@ def whatsapp():
     try:
         data = request.json
         text = data.get('text') 
-        return whatsapp.send_msg(text)
+        return whatsapp_module.send_msg(text)
 
     except Exception as e:
         return jsonify({'error': str(e)})
