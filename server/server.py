@@ -51,8 +51,7 @@ def payment():
 @app.route('/reviews', methods=['GET'])
 def reviews():
     try:
-        sentiment_value,filtered_words = reviewAnalysis.get_review_analysis()
-        return {'sentiment_value': sentiment_value ,'filtered_words':filtered_words}
+        return reviewAnalysis.get_review_analysis()
 
     except Exception as e:
         return jsonify({'error': str(e)})
