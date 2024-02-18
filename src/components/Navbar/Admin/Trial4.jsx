@@ -21,6 +21,7 @@ import image4 from '../../assets/person2-removebg-preview.png';
 import image5 from '../../assets/image10.jpg'
 import logo from '../../assets/logo-removebg-preview.png'
 import { Link } from "react-router-dom";
+import { Trial7 } from './Trial7';
 
 
 const style = {
@@ -154,6 +155,13 @@ axios.request(config)
         <img src={image5}></img>
         </div>
         <div>
+        <h1 className=' text-center font-bold text-3xl pb-2'>Hourly Analysis</h1>
+        <Paper elevation={4} sx={{borderRadius: '10px', backgroundColor:"white",marginTop:"40px"}}>
+                <Trial7/>
+                </Paper>
+
+        </div>
+        <div>
         <h1 className=' text-center font-bold text-3xl pb-2'>Sales Analysis</h1>
 
         <Paper sx={{ borderRadius: '20px',paddingLeft:"60px",paddingRight:"60px",paddingBottom:"13px" , backgroundColor:"#AB877D"}} elevation={4}>
@@ -161,7 +169,15 @@ axios.request(config)
             
             </Paper>
             </div>
-        <div className='flex flex-col mr-10 pt-12 items-center gap-'>
+        
+        <div  className='p-2'><Paper elevation={4} sx={{borderRadius: '10px', backgroundColor:"#AB877D"}}>
+            <div  className='flex justify-center text-3xl py-2 text-white'>Market Basket Analysis</div>
+            <Best/>
+            </Paper></div>
+            <div>
+                
+            </div>
+            <div><div className='flex flex-col mr-10 pt-12 items-center gap-'>
             <div  className='flex'>
             
             <div className='flex flex-col items-center'>
@@ -187,13 +203,7 @@ axios.request(config)
 
 
 
-        </div>
-        <div  className='p-2'><Paper elevation={4} sx={{borderRadius: '10px', backgroundColor:"#AB877D"}}>
-            <div  className='flex justify-center text-3xl py-2 text-white'>Market Basket Analysis</div>
-            <Best/>
-            </Paper></div>
-            <div></div>
-            <div></div>
+        </div></div>
             <div></div>
 
         <button onClick={handleOpen1}>

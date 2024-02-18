@@ -13,7 +13,7 @@ import { Trial5 } from './components/Navbar/Admin/Trial5';
 import Mover1 from './components/Navbar/Admin/Mover1';
 import Best from './components/Navbar/Admin/Best';
 import Reviews from './components/Navbar/Admin/Reviews';
-
+import { Trial7 } from './components/Navbar/Admin/Trial7';
 
 
 
@@ -34,7 +34,7 @@ function App() {
       <Route path='/mover' element={<Mover1/>}></Route>
       <Route path='/best' element={<Best/>}></Route>
       <Route path='/review' element={<Reviews/>}></Route>
-
+      <Route path='/trial7' element={<Trial7/>}></Route>
 
 
 

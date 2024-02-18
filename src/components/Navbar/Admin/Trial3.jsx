@@ -69,7 +69,7 @@ const Trial3 = () => {
 
         }
         // console.log(total1,trans1);
-        setTotal(total1)
+        setTotal(Math.ceil(total1))
         setTrans(trans1)
 
 
@@ -82,7 +82,7 @@ const Trial3 = () => {
   </Space>
   <div className="py-6 flex flex-col gap-2 ">
     <Paper elevation={1}>
-        <div style={{border:"12px "}} className="border-lg border-red-600  rounded-lg p-2">Total earnings : {total}</div>
+        <div style={{border:"12px "}} className="border-lg border-red-600  rounded-lg p-2">Total earnings : Rs. {total}</div>
     </Paper>
   <Paper elevation={1}>
     <div className="border-3 rounded-lg p-2">Total transactions : {trans}</div>
