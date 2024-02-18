@@ -26,6 +26,14 @@ def get_weekly_data():
     
     return merged_data.sort_values('date') 
 
+def get_hourly_sales():
+    sales_data = pd.read_csv('server\dataset\ettara_sales.csv')
+    sales_data = sales_data[0:6075]
+    sales_data['Timestamp'] = pd.to_datetime(sales_data['Timestamp'])
+    sales_data['Timestamp'] = sales_data['Timestamp'].dt.hour
+    hourly_sales = sales_data.groupby(sales_data['Timestamp']).size().reset_index(name='transactions')
+    return hourly_sales
+
 def get_weekly_sum():
     weekly = get_weekly_data()
     values = list(weekly['final_total'])

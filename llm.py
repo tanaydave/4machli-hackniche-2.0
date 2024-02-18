@@ -4,7 +4,7 @@ from langchain.llms import OpenAI
 from dotenv import load_dotenv
 import os
 import streamlit as st
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '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'
 def main():
     load_dotenv()
 

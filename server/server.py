@@ -39,6 +39,15 @@ def weekly():
     except Exception as e:
         return jsonify({'error': str(e)})
     
+@app.route('/hourly', methods=['GET'])
+def hourly():
+    try:
+        data = salesAnalysis.get_hourly_sales()
+        return data.to_json(orient='records')     
+
+    except Exception as e:
+        return jsonify({'error': str(e)})
+    
 @app.route('/payment', methods=['GET'])
 def payment():
     try:
