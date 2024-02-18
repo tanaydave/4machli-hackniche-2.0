@@ -22,14 +22,14 @@ function App() {
     <div className=' font-poppins'>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={Navbar}></Route>
-      <Route index element={<Home />} />
+      <Route path='/' element={<Home/>}></Route>
+      {/* <Route index element={<Home />} /> */}
       <Route path='/admin' element={<Admin/>}></Route>
       <Route path='/tanay' element={<Tanay/>}></Route>
       <Route path='/trial' element={<Trial/>}></Route>
       <Route path='/trial2' element={<Trial2/>}></Route>
       <Route path='/trial3' element={<Trial3/>}></Route>
-      <Route path='/trial4' element={<Trial4/>}></Route>
+      <Route path='/dashboard' element={<Trial4/>}></Route>
       <Route path='/trial5' element={<Trial5/>}></Route>
       <Route path='/mover' element={<Mover1/>}></Route>
       <Route path='/best' element={<Best/>}></Route>

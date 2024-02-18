@@ -12,7 +12,7 @@ const Mover1 = () => {
     // const promotions= ['Promotion: 25% off on OAT MILK (150 ML) during weekends', 'Promotion: 20% off on Madagascar Hot Chocolate (350 ML) during weekends', 'Promotion: 15% off on Sea Salt Dark Mocha Frappe (450 ML) during weekends', 'Promotion: 20% off on ESPRESSO (30 ML) during weekends', 'Promotion: 25% off on Berliners (Lotus Biscoff Berliner) during weekends', 'Promotion: 10% off on Irish Americano (350 ML) during weekends', 'Promotion: 25% off on Iced Latte (350 Ml) during weekends', 'Promotion: 15% off on South Indian Filter Kaapi (250 Ml) during weekends', 'Promotion: 25% off on Cappucino (350 ML) during weekends', 'Promotion: 20% off on Tartlets (kodai cheese tartlet) during weekends', 'Promotion: 15% off on Pour Over during weekends', 'Promotion: 25% off on Iced Latte (450 ML) during weekends', 'Promotion: 15% off on Berliner Mix 3 Pcs (Nutella Berliner) during weekends', 'Promotion: 25% off on Hazelnut Frappe (450 ML) during weekends', 'Promotion: 10% off on Berliners (Blueberry Cheese Cake Berliner) during weekends']
     const promotions=["Combo 1: Mix Berliner  2 Pcs (Dark Choco Mousse Berliner) and Origanal South Indian Frappe (350 ML) at a special price of 325","Combo 2: Kaapicino (350 Ml) and South Indian Filter Kaapi (150 ML) at a special price of 413","Combo 3: Coconut Natkhatai (with Egg) and Baked Vada Pav at a special price of 403","Combo 4: Mix Tartlet 9 Pcs (Salted Caramel Tartlet) and Cappucino (250 ML) at a special price of 222","Combo 5: Mix Berliner  2 Pcs (Blueberry Cheese Cake Berliner) and South Indian Filter Kaapi (250 ML) at a special price of 219"]
   return (
-    <div className=' w-full h-[60px]' >
+    <div className=' w-full ' >
         <Slider 
         dots={true}
 autoplay={true}

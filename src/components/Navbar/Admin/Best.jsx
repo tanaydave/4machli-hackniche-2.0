@@ -3,6 +3,11 @@ import axios from "axios";
 import { useEffect } from "react";
 import {Button, ButtonGroup} from '@mui/material'
 
+import Accordion from '@mui/material/Accordion';
+import AccordionActions from '@mui/material/AccordionActions';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 const Best = () => {
   const [items, setItems] = useState([]);
     const [sim,setSim]=useState()
@@ -20,6 +25,7 @@ const Best = () => {
         // console.log((response.data.names));
         //   names_of_prod= response.data.names
         setItems(response.data.names);
+        mbaanalysis()
         //   console.log(items)
         // const quantity_of_prods=response.data.prods
       } catch (error) {
@@ -29,11 +35,7 @@ const Best = () => {
 
     makeRequest();
   }, []);
-  const mba=(a)=>{
-
-    console.log((a));
-    mbaanalysis(a);
-  }
+  
 
   const mbaanalysis=()=>{
     let config = {
@@ -47,6 +49,8 @@ const Best = () => {
         try {
           const response = await axios.request(config);
           console.log((response.data));
+          console.log("heleoelelelellelel");
+          setSim(response.data)
           //   names_of_prod= response.data.names
         //   setItems(response.data.names);
           //   console.log(items)
@@ -59,17 +63,59 @@ const Best = () => {
       makeRequest();
   }
   return (
-    <div className="flex flex-col items-center gap-2 ">
-      Most Sold Items
-      <ButtonGroup  aria-label="outlined button group " orientation="vertical">
+    // <div className="flex flex-col items-center gap-2 ">
+    //   Most Sold Items
+    //   <ButtonGroup  aria-label="outlined button group " orientation="vertical">
         
-      {items.map((name) => {
-        // console.log("hello")
-        return <Button className=" border-b-4" sx={{padding:2,color:'white'}} onMouseEnter={()=>mba(name)}  onClick={() => mba(name)}>{name}</Button>;
-      })}
-      </ButtonGroup>
+    //   {items.map((name) => {
+    //     // console.log("hello")
+    //     return <Button className=" border-b-4" sx={{padding:2,color:'white'}} onMouseEnter={()=>mba(name)}  onClick={() => mba(name)}>{name}</Button>;
+    //   })}
+    //   </ButtonGroup>
 
-    </div>
+    // </div>
+    <>
+    {sim?<>
+        {items.map((name) => {
+            let h=[]
+            for(let i=0;i<sim.length;i++){
+                // console.log(sim[i].antecedents)
+                if(sim[i].antecedents==name && sim[i].support>0.011)
+                {
+                    h.push(sim[i]);
+                    console.log(h,sim[i].antecedents);
+                }
+                
+            }
+return(
+    <Accordion>
+    <AccordionSummary
+      expandIcon={<ExpandMoreIcon />}
+      aria-controls="panel1-content"
+      id="panel1-header"
+    >
+      {name}
+    </AccordionSummary>
+    <AccordionDetails>
+      {h.map((i)=>{
+       return(
+        <>
+        {i.consequents} ( {i.lift} ),
+        </>
+       )
+      })}
+    </AccordionDetails>
+  </Accordion>
+
+)
+})}
+    
+    </>:<></>}
+        
+    
+
+
+    </>
   );
 };
 

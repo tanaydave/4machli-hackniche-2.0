@@ -21,7 +21,7 @@ export function Trial5() {
         ["Card", 892049.93],
       ];
       const options = {
-        title: "My Daily Activities",
+        title: "Payment Analysis",
         is3D: true,
       };
     useEffect(() => {

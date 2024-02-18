@@ -58,7 +58,7 @@ export default function Trial2() {
             labels: [],
             datasets: [
                 {
-                    label: selectedValue === 'a' ? 'Weekly Income' : 'Hourly Income',
+                    label: 'Weekly Income' ,
                     data:  weekly,
                     fill: true,
                     borderColor: 'rgb(75, 192, 192)',
@@ -78,12 +78,12 @@ export default function Trial2() {
                 labels: [],
                 datasets: [
                     {
-                        label: selectedValue === 'a' ? 'Weekly Transactions' : 'Hourly Income',
+                        label: 'Weekly Transactions',
                         data:  transaction,
                         fill: true,
                         borderColor: 'rgb(75, 192, 192)',
                         tension: 0.1,
-                        backgroundColor:"rgb(171,135,125)"
+                        backgroundColor:"rgb(60, 110, 80)"
                     }
                     // {
                     //     label: selectedValue === 'a' ? 'Weekly Transactions' : 'Hourly Transactions',
@@ -100,22 +100,7 @@ export default function Trial2() {
     
   return (
     <div>
-        <div>
-      <Radio
-        checked={selectedValue === 'a'}
-        onChange={handleChange}
-        value="a"
-        name="radio-buttons"
-        inputProps={{ 'aria-label': 'A' }}
-      />
-      <Radio
-        checked={selectedValue === 'b'}
-        onChange={handleChange}
-        value="b"
-        name="radio-buttons"
-        inputProps={{ 'aria-label': 'B' }}
-      />
-    </div>
+
     {weekly?<>
     <Bar width={400} data={data} style={{
             marginLeft: '30px',
