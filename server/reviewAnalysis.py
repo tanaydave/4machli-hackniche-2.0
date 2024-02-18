@@ -79,6 +79,6 @@ def get_review_analysis():
 
     return {
         'ettara' : ettara_sentiment_value,
-        'love-latte': love_latte_sentiment_value,
-        'tea-villa' : tea_villa_sentiment_value
+        'love_latte': love_latte_sentiment_value,
+        'tea_villa' : tea_villa_sentiment_value
     }
