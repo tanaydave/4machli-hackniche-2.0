@@ -9,12 +9,17 @@ import Trial from './components/Navbar/Admin/Trial';
 import Trial2 from './components/Navbar/Admin/Trial2';
 import Trial3 from './components/Navbar/Admin/Trial3';
 import Trial4 from './components/Navbar/Admin/Trial4';
+import { Trial5 } from './components/Navbar/Admin/Trial5';
+import Mover1 from './components/Navbar/Admin/Mover1';
+import Best from './components/Navbar/Admin/Best';
+import Reviews from './components/Navbar/Admin/Reviews';
+
 
 
 
 function App() {
   return (
-    <>
+    <div className=' font-poppins'>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={Navbar}></Route>
@@ -25,6 +30,11 @@ function App() {
       <Route path='/trial2' element={<Trial2/>}></Route>
       <Route path='/trial3' element={<Trial3/>}></Route>
       <Route path='/trial4' element={<Trial4/>}></Route>
+      <Route path='/trial5' element={<Trial5/>}></Route>
+      <Route path='/mover' element={<Mover1/>}></Route>
+      <Route path='/best' element={<Best/>}></Route>
+      <Route path='/review' element={<Reviews/>}></Route>
+
 
 
 
@@ -32,7 +42,7 @@ function App() {
     </Routes>
     </BrowserRouter>
 
-    </>
+    </div>
   );
 }
 

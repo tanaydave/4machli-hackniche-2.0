@@ -62,6 +62,7 @@ export default function Trial2() {
                     data:  weekly,
                     fill: true,
                     borderColor: 'rgb(75, 192, 192)',
+                    backgroundColor:"rgb(171,135,125)",
                     tension: 0.1
                 }
                 // {
@@ -81,7 +82,8 @@ export default function Trial2() {
                         data:  transaction,
                         fill: true,
                         borderColor: 'rgb(75, 192, 192)',
-                        tension: 0.1
+                        tension: 0.1,
+                        backgroundColor:"rgb(171,135,125)"
                     }
                     // {
                     //     label: selectedValue === 'a' ? 'Weekly Transactions' : 'Hourly Transactions',
@@ -116,7 +118,8 @@ export default function Trial2() {
     </div>
     {weekly?<>
     <Bar width={400} data={data} style={{
-            marginLeft: '30px'
+            marginLeft: '30px',
+            borderColor:'rgb(171,135,125)',
            }}/>
             <Bar width={400} data={data2} style={{
             marginLeft: '30px'

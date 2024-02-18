@@ -59,7 +59,8 @@ export default function Trial() {
                     label: selectedValue === 'a' ? 'Daily Income' : 'Daily Transaction',
                     data:  selectedValue === 'a' ? dailyfinal : dailytrans,
                     fill: false,
-                    borderColor: 'rgb(75, 192, 192)',
+                    borderColor: 'rgb(171,135,125)',
+                    backgroundColor:'rgb(171,135,125)',
                     tension: 0.1
                 }
             ]};
