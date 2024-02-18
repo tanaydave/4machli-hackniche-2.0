@@ -9,10 +9,10 @@ driver = webdriver.Edge()
 review_class = "sc-1hez2tp-0"  # Use only one class name
 review_array=[]
 
-for page in range(43):
+for page in range(10):
     pg_num = page + 1
     # Open a website
-    driver.get(f"https://www.zomato.com/mumbai/ettarra-1-juhu/reviews?page={pg_num}&sort=dd&filter=reviews-dd")
+    driver.get(f"https://www.zomato.com/mumbai/tea-villa-cafe-juhu/reviews?page={pg_num}&sort=dd&filter=reviews-dd")
 
     # Function to get and print reviews
     def get_reviews():
