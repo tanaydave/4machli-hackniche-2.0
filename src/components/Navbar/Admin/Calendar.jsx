@@ -8,7 +8,7 @@ import { useEffect} from "react";
 
 const { RangePicker } = DatePicker;
 
-const Trial3 = () => {
+const Calendar = () => {
     const [total,setTotal]= useState(0)
     const [trans,setTrans]= useState(0)
 
@@ -95,4 +95,4 @@ const Trial3 = () => {
   )
 }
 
-export default Trial3
+export default Calendar

@@ -1,14 +1,14 @@
 import React from 'react'
-import Trial from './Trial'
-import Trial2 from './Trial2'
-import Trial3 from './Trial3'
+import Daily from './Daily'
+import Weekly from './Weekly'
+import Calendar from './Calendar'
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
-import { Trial5 } from './Trial5'
+import PieChart from './PieChart'
 import { Grid,Paper } from '@mui/material'
-import Mover1 from './Mover1';
+import Mover1 from './Coupons';
 import { IoLogoWhatsapp } from "react-icons/io";
 import axios from 'axios';
 import TextField from '@mui/material/TextField';
@@ -21,7 +21,7 @@ import image4 from '../../assets/person2-removebg-preview.png';
 import image5 from '../../assets/image10.jpg'
 import logo from '../../assets/logo-removebg-preview.png'
 import { Link } from "react-router-dom";
-import { Trial7 } from './Trial7';
+import Hourlydata from './Hourlydata';
 
 
 const style = {
@@ -46,7 +46,7 @@ const style = {
     boxShadow: 24,
     p: 4,
   };
-const Trial4 = () => {
+const Dashboard = () => {
     const [open, setOpen] = React.useState(false);
     const [open1, setOpen1] = React.useState(false);
     const [text,setText]=React.useState('')
@@ -89,7 +89,7 @@ axios.request(config)
         <nav nav className="navbar flex justify-between px-16 items-center fixed-top navbar-expand-lg " id="nav_design">
         <a
           class="navbar-brand"
-          href="#"
+          href="/"
           style={{
             marginLeft: "1.2vw",
             marginTop:"10px",
@@ -104,7 +104,7 @@ axios.request(config)
        
        
         <div className="font-constantia relative after:content-[''] pb-2 after:block after:h-[4px] after:w-[100%] after:bg-amber-950 after:scale-x-0 after:origin-left after:ease-in-out after:duration-300 after:hover:scale-x-100  2xl:pr-6 2xl:pl-3 text-2xl  transition-all delay-100 ease-in cursor-pointer pt-4">
-              <Link  to="/trial4">
+              <Link  to="/dashboard">
                 Analytics
               </Link>
             </div>
@@ -114,7 +114,7 @@ axios.request(config)
             <h1 className='hover:shadow-2xl text-center font-bold text-3xl'>Daily Sales</h1>
             <Paper sx={{ borderRadius: '20px',}} elevation={4}>
           
-                <Trial/>
+                <Daily/>
             </Paper>
             
         </div>
@@ -132,7 +132,7 @@ axios.request(config)
 
         <Paper elevation={4} sx={{borderRadius: '20px'}}>
 
-            <Trial2/>
+            <Weekly/>
         </Paper>
         </div>
         <div>
@@ -157,7 +157,7 @@ axios.request(config)
         <div>
         <h1 className=' text-center font-bold text-3xl pb-2'>Hourly Analysis</h1>
         <Paper elevation={4} sx={{borderRadius: '10px', backgroundColor:"white",marginTop:"40px"}}>
-                <Trial7/>
+                <Hourlydata/>
                 </Paper>
 
         </div>
@@ -165,7 +165,7 @@ axios.request(config)
         <h1 className=' text-center font-bold text-3xl pb-2'>Sales Analysis</h1>
 
         <Paper sx={{ borderRadius: '20px',paddingLeft:"60px",paddingRight:"60px",paddingBottom:"13px" , backgroundColor:"#AB877D"}} elevation={4}>
-               <Trial3/>
+               <Calendar/>
             
             </Paper>
             </div>
@@ -221,7 +221,7 @@ axios.request(config)
             <Grid container>
                 <Grid item md={0}></Grid>
                 <Grid item md={10}>
-                    <Trial5/>
+                    <PieChart/>
                 </Grid>
                 <Grid item md={2}>
                 </Grid>
@@ -247,4 +247,4 @@ axios.request(config)
   )
 }
 
-export default Trial4
+export default Dashboard

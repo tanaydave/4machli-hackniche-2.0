@@ -7,7 +7,7 @@ import { Bar } from 'react-chartjs-2';
 import { Chart, registerables} from 'chart.js';
 
 Chart.register(...registerables);
-export default function Trial2() {
+export default function Weekly() {
     const [weekly,setWeekly]=useState([]);
     const [transaction, setTransaction] = useState();
     const [dailyfinal,setDailyfinal]=useState([0])
@@ -29,22 +29,24 @@ export default function Trial2() {
           try {
             const response = await axios.request(config);
             console.log((response.data));
-            // let ctr=0;
-            // for (let i = 0; i < response.data.length; i+=1) {
-            //     // let v=response.data[i].final_total+response.data[i+1].final_total+response.data[i+2].final_total
-            //     // console.log(v);
-            //     // dailyfinal.push(v)
-            //     // v=response.data[i].transactions+response.data[i+1].transactions+response.data[i+2].transactions
-            //     // dailytrans.push(v)
-            //     dailyfinal[ctr]=response.data[i].final_total;
-            //     dailytrans[ctr]=response.data[i].transactions;
-            //   ctr++;
-            // // }
+          
+         
             setWeekly(response.data.weekends);
             setTransaction(response.data.transactions)
             console.log(response.data.transactions);
-            // console.log(dailyfinal);
-            // console.log(dailytrans);
+             //   let ctr=0;
+          //   for (let i = 0; i < response.data.length; i+=1)
+          //    {
+          //       // let v=response.data[i].final_total+response.data[i+1].final_total+response.data[i+2].final_total
+          //       // console.log(v);
+          //       // dailyfinal.push(v)
+          //       // v=response.data[i].transactions+response.data[i+1].transactions+response.data[i+2].transactions
+          //       // dailytrans.push(v)
+          //       dailyfinal[ctr]=response.data[i].final_total;
+          //       dailytrans[ctr]=response.data[i].transactions;
+          //     ctr++;
+          //   // }
+            
           }
           catch (error) {
             console.log(error);
@@ -65,13 +67,7 @@ export default function Trial2() {
                     backgroundColor:"rgb(171,135,125)",
                     tension: 0.1
                 }
-                // {
-                //     label: selectedValue === 'a' ? 'Weekly Transactions' : 'Hourly Transactions',
-                //     data:  transaction,
-                //     fill: false,
-                //     borderColor: 'rgb(75, 192, 192)',
-                //     tension: 0.1
-                // },
+               
 
             ]};
             const data2= {
@@ -85,14 +81,7 @@ export default function Trial2() {
                         tension: 0.1,
                         backgroundColor:"rgb(60, 110, 80)"
                     }
-                    // {
-                    //     label: selectedValue === 'a' ? 'Weekly Transactions' : 'Hourly Transactions',
-                    //     data:  transaction,
-                    //     fill: false,
-                    //     borderColor: 'rgb(75, 192, 192)',
-                    //     tension: 0.1
-                    // },
-    
+                   
                 ]};
                 
         
